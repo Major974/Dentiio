@@ -10,7 +10,7 @@
 
 <body>
     Hello World
-    <br><a href="Connexion.html">Ablabla</a>
+    <br><a href="Connexion.php">Ablabla</a>
 </body>
 
 </html>
