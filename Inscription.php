@@ -17,9 +17,12 @@
 
 <body>
     <div class="main_container_inscrip">
+        <div class="dentiio">
+            Dentiio
+            <img src="assets/base_assets/logo192.png" height="93px" alt="">
+        </div>
         <div class="container">
-
-            <div class="form_container_inscrip p-3 d-flex flex-column justify-content-center">
+            <div class="form_container_inscrip p-4 d-flex flex-column justify-content-center border border-1 rounded-3">
                 <h1>Inscription</h1>
                 <form action="" method="get">
                     <div class="mb-3">
