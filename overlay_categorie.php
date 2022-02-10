@@ -19,6 +19,9 @@ include("vues/NavBar.php");
 
 <body>
     <div>
+        <div class="LEBLOCK">
+
+        </div>
 
         <div class="main_container_categorie d-flex flex-row">
 
