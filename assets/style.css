@@ -1,11 +1,14 @@
+/* //
+//  Connexion & Inscription
+// */
+
 .main_container_inscrip {
     position: absolute;
-    width: 100vw;
-    height: 100vh;
+    width: 98%;
+    height: 100%;
     background: no-repeat;
     background-image: url("base_assets/illus.png");
     background-position: top 10px left -70px;
-    /* background-size: 1347px 1366px; */
     background-size: 120vh;
     top: 0;
 }
@@ -13,17 +16,17 @@
 .form_container_inscrip {
     background-color: whitesmoke;
     width: fit-content;
-    border-radius: 10px;
-    margin-left: 70vw;
-    margin-top: 100px;
-    height: 50vh;
+    margin-left: 60%;
+    margin-top: 5%;
+    height: 50%;
     box-shadow: 5px 5px 5px rgba(124, 124, 124, 0.568);
 }
 
 .dentiio {
+    position: relative;
     height: 93px;
-    left: 20px;
-    top: 9px;
+    left: 2%;
+    top: 2vh;
     border-radius: 0px;
     font-family: Roboto;
     font-style: normal;
@@ -31,6 +34,31 @@
     font-size: 60px;
     line-height: 70px;
     color: #FFFFFF;
-    border: 1px solid rgba(0, 0, 0, 0.3);
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.466);
+}
+
+
+/* //
+//  Overlay
+// */
+
+.main_container_categorie {
+    border: solid;
+    position: absolute;
+    width: 98%;
+    height: 100vh;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+}
+
+.opacity_square {
+    background-color: blueviolet;
+    width: 50vw;
+    height: 50vh;
+}
+
+.cat_container {
+    background-color: rgba(102, 255, 0, 0.342);
+    width: 50vw;
+    height: 50vh;
 }
