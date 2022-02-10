@@ -1,4 +1,4 @@
-*{
+* {
     box-sizing: border-box;
 }
 
@@ -10,11 +10,11 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 95px;
+    height: 10vh;
     width: auto;
     background-color: #69aeda;
 }
-  
+
 #left {
     list-style-type: none;
     align-items: center;
@@ -25,7 +25,7 @@ body {
 .leftIcon {
     float: left;
 }
-  
+
 .leftIcon a {
     display: block;
     color: white;
@@ -34,10 +34,8 @@ body {
     text-decoration: none;
 }
 
-
-
 button {
-    background-color: #69aeda ;
+    background-color: #69aeda;
     border: none;
 }
 
@@ -58,11 +56,10 @@ button {
 }
 
 #Burgonde {
-    width:80px;
-    height:80px;
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
 }
-
 
 #toggle {
     width: 28px;
@@ -73,7 +70,7 @@ button {
 button#toggle {
     padding: 33px;
 }
-  
+
 #toggle span:after,
 #toggle span:before {
     content: "";
@@ -82,7 +79,7 @@ button#toggle {
     top: -9px;
 }
 
-#toggle span:after{
+#toggle span:after {
     top: 9px;
 }
 
@@ -90,7 +87,7 @@ button#toggle {
     position: relative;
     display: block;
 }
-  
+
 #toggle span,
 #toggle span:after,
 #toggle span:before {
@@ -101,18 +98,22 @@ button#toggle {
     backface-visibility: hidden;
     border-radius: 2px;
 }
-  
-  /* on activation */
+
+
+/* on activation */
+
 #toggle.on span {
     background-color: transparent;
 }
 
-#toggle.on + #menu {
+#toggle.on+#menu {
     opacity: 1;
     visibility: visible;
 }
-  
-  /* menu appearance*/
+
+
+/* menu appearance*/
+
 #menu {
     position: relative;
     color: #999;
@@ -123,10 +124,9 @@ button#toggle {
     border-radius: 4px;
     background: white;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-
     opacity: 0;
     visibility: hidden;
-    transition: opacity .4s;  
+    transition: opacity .4s;
 }
 
 #menu:after {
