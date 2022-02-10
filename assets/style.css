@@ -1,6 +1,6 @@
 .main_container_inscrip {
     position: absolute;
-    width: 99%;
+    width: 98%;
     height: 100%;
     background: no-repeat;
     background-image: url("base_assets/illus.png");
@@ -21,7 +21,7 @@
 .dentiio {
     position: relative;
     height: 93px;
-    left: 1%;
+    left: 2%;
     top: 2vh;
     border-radius: 0px;
     font-family: Roboto;
