@@ -42,29 +42,18 @@
 //  Overlay
 // */
 
-
-/* .main_container_categorie {
-    border: solid;
-    position: absolute;
-    width: 98%;
-    height: 100vh;
-    background: rgb(2, 0, 36);
-    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+.main_container_categorie {
+    background-color: crimson;
 }
 
-.opacity_square {
-    background-color: blueviolet;
-    width: 100%;
-     height: 50vh; 
-
-
+.opacity_container {
+    background-color: rgba(137, 43, 226, 0.185);
 }
+
 .category_container {
-    background-color: rgba(102, 255, 0, 0.342);
     width: 588px;
-    height: 100vh; 
+    height: 100vh;
 }
-*/
 
 .category_button {
     font-family: "Kandin", "alfabetica", sans-serif;

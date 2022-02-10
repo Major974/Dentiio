@@ -20,20 +20,18 @@ include("vues/NavBar.php");
 <body>
     <div>
 
-        <div class="d-flex flex-row">
+        <div class="main_container_categorie d-flex flex-row">
 
             <div class="d-flex flex-column  p-2 " style="height:90vh; width:20vw">
-                <div class="category_button p-2">Pathologie ></div>
+                <div class="category_button p-2">Pathologie</div>
                 <div class="category_button p-2">Traitement ></div>
                 <div class="category_button p-2">Spécialité ></div>
                 <div class="category_button p-2">Anatomie ></div>
             </div>
-            <div class="p-2 bd-highlight bg-warning bg-gradient flex-grow-1" style="width:50vw;">
-                Opacity here
+            <div class="opacity_container bd-highlight flex-grow-1" style="width:50vw;">
             </div>
         </div>
     </div>
-    <!-- </div> -->
 </body>
 
 </html>
