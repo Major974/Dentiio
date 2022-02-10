@@ -1,0 +1,136 @@
+.fav{
+    font-size: 80px;
+    margin-left:750px;
+    margin-top: 50px;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Float four columns side by side */
+  .column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+  }
+  
+  /* Remove extra left and right margins, due to padding in columns */
+  .row {margin: 0 -5px;}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Style the counter cards */
+  .card {
+    background: #FFFFFF;
+    border: 2px solid #00E0FF;
+    box-sizing: border-box;
+    border-radius: 10px;
+  }
+  #cercle {
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    background: rgb(70, 25, 25);
+    float: left;
+}
+.namecl{
+    float: left;
+    margin-left: 15px;
+}
+#cercle-top {
+    position: absolute;
+    width: 34px;
+    height: 34px;
+    left: 284px;
+    background: #ffffff;
+    border: 2px solid #00E0FF;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.card-img-top{
+    border: 2px solid #00E0FF;
+    box-sizing: border-box;
+    border-radius: 10px 10px 0px 0px;
+}
+.barbleu1{
+    position: absolute;
+    left: 10px;
+    top: 290px;
+    width: 50px;
+    height: 20px;
+    background: #00E0FF;
+    border-radius: 10px;
+}
+.barbleu2{
+    position: absolute;
+    left: 65px;
+    top: 290px;
+    width: 66px;
+    height: 20px;
+    background: #00E0FF;
+    border-radius: 10px;
+}
+.barbleu3{
+    position: absolute;
+    left: 10px;
+    top: 290px;
+    width: 70px;
+    height: 20px;
+    background: #00E0FF;
+    border-radius: 10px;
+}
+.barbleu4{
+    position: absolute;
+    left: 85px;
+    top: 290px;
+    width: 85px;
+    height: 20px;
+    background: #00E0FF;
+    border-radius: 10px;
+}
+.barbleu5{
+    position: absolute;
+    left: 173px;
+    top: 290px;
+    width: 75px;
+    height: 20px;
+    background: #00E0FF;
+    border-radius: 10px;
+}
+#cercle-bot1 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 180px;
+    background: #ffffff;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+#cercle-bot2 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 250px;
+    background: #ffffff;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+#cercle-bot3 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 14px;
+    top: 9px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
