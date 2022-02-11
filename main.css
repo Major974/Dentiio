@@ -1,52 +1,65 @@
-.fav{
+.fav {
     font-size: 80px;
-    margin-left:750px;
+    margin-left: 750px;
     margin-top: 50px;
 }
 
 * {
     box-sizing: border-box;
-  }
-  
-  body {
+}
+
+body {
     font-family: Arial, Helvetica, sans-serif;
-  }
-  
-  /* Float four columns side by side */
-  .column {
+}
+
+
+/* Float four columns side by side */
+
+.column {
     float: left;
     width: 25%;
     padding: 0 10px;
-  }
-  
-  /* Remove extra left and right margins, due to padding in columns */
-  .row {margin: 0 -5px;}
-  
-  /* Clear floats after the columns */
-  .row:after {
+}
+
+
+/* Remove extra left and right margins, due to padding in columns */
+
+.row {
+    margin: 0 -5px;
+}
+
+
+/* Clear floats after the columns */
+
+.row:after {
     content: "";
     display: table;
     clear: both;
-  }
-  
-  /* Style the counter cards */
-  .card {
+}
+
+
+/* Style the counter cards */
+
+.card {
     background: #FFFFFF;
     border: 1px solid #00E0FF;
     box-sizing: border-box;
     border-radius: 14px;
-  }
-  #cercle {
+}
+
+#cercle {
     width: 50px;
     height: 50px;
     border-radius: 30px;
     background: rgb(70, 25, 25);
     float: left;
 }
-.namecl{
+
+.namecl {
     float: left;
     margin-left: 15px;
 }
+
 #cercle-top {
     position: absolute;
     width: 34px;
@@ -57,12 +70,14 @@
     box-sizing: border-box;
     border-radius: 10px;
 }
-.card-img-top{
+
+.card-img-top {
     border: 1px solid #00E0FF;
     box-sizing: border-box;
     border-radius: 10px 10px 0px 0px;
 }
-.barbleu1{
+
+.barbleu1 {
     position: absolute;
     left: 10px;
     top: 290px;
@@ -71,7 +86,8 @@
     background: #00E0FF;
     border-radius: 10px;
 }
-.barbleu2{
+
+.barbleu2 {
     position: absolute;
     left: 65px;
     top: 290px;
@@ -80,7 +96,8 @@
     background: #00E0FF;
     border-radius: 10px;
 }
-.barbleu3{
+
+.barbleu3 {
     position: absolute;
     left: 10px;
     top: 290px;
@@ -89,7 +106,8 @@
     background: #00E0FF;
     border-radius: 10px;
 }
-.barbleu4{
+
+.barbleu4 {
     position: absolute;
     left: 85px;
     top: 290px;
@@ -98,7 +116,8 @@
     background: #00E0FF;
     border-radius: 10px;
 }
-.barbleu5{
+
+.barbleu5 {
     position: absolute;
     left: 173px;
     top: 290px;
@@ -107,6 +126,7 @@
     background: #00E0FF;
     border-radius: 10px;
 }
+
 #cercle-bot1 {
     position: absolute;
     width: 50px;
@@ -116,6 +136,7 @@
     box-sizing: border-box;
     border-radius: 10px;
 }
+
 #cercle-bot2 {
     position: absolute;
     width: 50px;
@@ -125,6 +146,7 @@
     box-sizing: border-box;
     border-radius: 10px;
 }
+
 #cercle-bot3 {
     position: absolute;
     width: 50px;
@@ -135,7 +157,7 @@
     border-radius: 10px;
 }
 
-#cercle-top1{
+#cercle-top1 {
     width: 150px;
     height: 150px;
     left: 50px;
@@ -144,7 +166,9 @@
     border-radius: 100px;
 }
 
+
 /* ______________________thomas________________________________ */
+
 
 /* //
 //  Connexion & Inscription
@@ -213,6 +237,7 @@
 
 
 /* ___________________________Nathan_________________________________________ */
+
 body {
     margin: 0;
 }
@@ -221,11 +246,11 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 95px;
+    height: 10vh;
     width: auto;
     background-color: #69aeda;
 }
-  
+
 #left {
     list-style-type: none;
     align-items: center;
@@ -236,7 +261,7 @@ body {
 .leftIcon {
     float: left;
 }
-  
+
 .leftIcon a {
     display: block;
     color: white;
@@ -245,10 +270,8 @@ body {
     text-decoration: none;
 }
 
-
-
 button {
-    background-color: #69aeda ;
+    background-color: #69aeda;
     border: none;
 }
 
@@ -269,11 +292,10 @@ button {
 }
 
 #Burgonde {
-    width:80px;
-    height:80px;
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
 }
-
 
 #toggle {
     width: 28px;
@@ -284,7 +306,7 @@ button {
 button#toggle {
     padding: 33px;
 }
-  
+
 #toggle span:after,
 #toggle span:before {
     content: "";
@@ -293,7 +315,7 @@ button#toggle {
     top: -9px;
 }
 
-#toggle span:after{
+#toggle span:after {
     top: 9px;
 }
 
@@ -301,7 +323,7 @@ button#toggle {
     position: relative;
     display: block;
 }
-  
+
 #toggle span,
 #toggle span:after,
 #toggle span:before {
@@ -312,18 +334,22 @@ button#toggle {
     backface-visibility: hidden;
     border-radius: 2px;
 }
-  
-  /* on activation */
+
+
+/* on activation */
+
 #toggle.on span {
     background-color: transparent;
 }
 
-#toggle.on + #menu {
+#toggle.on+#menu {
     opacity: 1;
     visibility: visible;
 }
-  
-  /* menu appearance*/
+
+
+/* menu appearance*/
+
 #menu {
     position: relative;
     color: #999;
@@ -334,10 +360,9 @@ button#toggle {
     border-radius: 4px;
     background: white;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-
     opacity: 0;
     visibility: hidden;
-    transition: opacity .4s;  
+    transition: opacity .4s;
 }
 
 #menu:after {
