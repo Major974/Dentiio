@@ -342,14 +342,20 @@ body {
 .main_container_categorie {
     width: 100%;
     height: 100vh;
-    background: rgb(194, 191, 8);
-    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
 }
 
 .cat_container {
-    background-color: rgba(102, 255, 0, 0.342);
     height: 100%;
     width: 20vw;
+}
+
+.cat_container_titre {
+    background-color: #03B6F0;
+    height: 11vh;
+    padding: 2vh;
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
 }
 
 
@@ -362,7 +368,7 @@ body {
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #f1f1f1b4;
+    background-color: #ffffff;
     overflow-x: hidden;
     transition: 0.5s;
 }
@@ -370,14 +376,14 @@ body {
 .overlay-content {
     position: relative;
     top: 0;
-    width: 25vw;
+    width: 20vw;
     text-align: center;
 }
 
 .overlay a {
     padding: 8px;
     text-decoration: none;
-    font-size: 36px;
+    font-size: 20px;
     color: #818181;
     display: block;
     transition: 0.3s;
@@ -385,7 +391,8 @@ body {
 
 .overlay a:hover,
 .overlay a:focus {
-    color: #f1f1f1;
+    color: #3f3f3f;
+    font-size: 200%;
 }
 
 .overlay .closebtn {
@@ -400,7 +407,7 @@ body {
         font-size: 20px
     }
     .overlay .closebtn {
-        font-size: 40px;
+        font-size: 60px;
         top: 15px;
         right: 35px;
     }
