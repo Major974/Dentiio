@@ -20,13 +20,24 @@ body {
     width: 25%;
     padding: 0 10px;
 }
-
+.column1 {
+    position: absolute;
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+    margin-left: 500px;
+}
 
 /* Remove extra left and right margins, due to padding in columns */
 
 .row {
     margin: 0 -5px;
     margin-left: 75px;
+    position: absolute;
+    width: 419px;
+    height: 481px; 
+    top: 520px;
+
 }
 
 
@@ -46,6 +57,7 @@ body {
     border: 1px solid #00E0FF;
     box-sizing: border-box;
     border-radius: 14px;
+
 }
 
 #cercle {
@@ -81,7 +93,7 @@ body {
 .barbleu1 {
     position: absolute;
     left: 10px;
-    top: 290px;
+    top: 360px;
     width: 50px;
     height: 20px;
     background: #00E0FF;
@@ -91,7 +103,7 @@ body {
 .barbleu2 {
     position: absolute;
     left: 65px;
-    top: 290px;
+    top: 360px;
     width: 66px;
     height: 20px;
     background: #00E0FF;
@@ -101,7 +113,7 @@ body {
 .barbleu3 {
     position: absolute;
     left: 10px;
-    top: 290px;
+    top: 180px;
     width: 70px;
     height: 20px;
     background: #00E0FF;
@@ -111,7 +123,7 @@ body {
 .barbleu4 {
     position: absolute;
     left: 85px;
-    top: 290px;
+    top: 180px;
     width: 85px;
     height: 20px;
     background: #00E0FF;
@@ -121,7 +133,7 @@ body {
 .barbleu5 {
     position: absolute;
     left: 173px;
-    top: 290px;
+    top: 180px;
     width: 75px;
     height: 20px;
     background: #00E0FF;
@@ -159,24 +171,29 @@ body {
 }
 
 #cercle-top1 {
-    width: 150px;
-    height: 150px;
+    position: absolute;
+    width: 200px;
+    height: 200px;
     left: 50px;
     background: #5f0202;
     box-sizing: border-box;
     border-radius: 100px;
+    margin-top: 50px;
 }
 
 .colorgrey {
     color: rgb(97, 97, 97);
+    font-size: 25px;
 }
 
 .bleubarb {
+    
     background-color: rgba(0, 213, 255, 0.377);
     width: auto;
     height: 60px;
     margin-left: 70px;
     margin-right: 70px;
+    margin-top: 300px;
 }
 
 #publica {
@@ -193,16 +210,85 @@ body {
     width: 155px;
     height: 50px;
     left: 1000px;
-    top: 505px;
+    top: 405px;
 }
 
 .publica1 {
     position: absolute;
     width: 180px;
-    height: 50px;
+    height: 40px;
     left: 500px;
-    top: 500px;
+    top: 405px;
     background: #ffffff;
+}
+.profil{
+    text-align: left;
+    margin-left: 150px;
+}
+.colorblack{
+    position: absolute;
+    width: 180px;
+    height: 34px;
+    left: 307px;
+    top: 190px;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+    color: #000000;
+}
+.colorblack1{
+    position: absolute;
+    width: 126px;
+    height: 35px;
+    left: 311px;
+    top: 246px;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.colorblack2{
+    position: absolute;
+    width: 47px;
+    height: 43px;
+    left: 360px;
+    top: 296px;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+    color: #000000;
+}
+.colorblack3{
+    position: absolute;
+    width: 222px;
+    height: 51px;
+    left: 410px;
+    top: 296px;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px; 
+}
+.colorblack4{
+    position: absolute;
+    width: 47px;
+    height: 43px;
+    left: 602px;
+    top: 296px;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+    color: #000000;
+}
+.colorblack5{
+    position: absolute;
+    width: 222px;
+    height: 51px;
+    left: 652px;
+    top: 296px;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+    color: rgba(0, 0, 0, 0.7);
 }
 
 
