@@ -12,7 +12,7 @@
         <div class="column">
             <div class="card" style="width: 20rem;">
                 <div id="cercle-top"><img src="../img/Etoile_Bleu_PLeine.png" class="card-img" alt="dev-meme-1"></div>
-                <img src="../img/D2QNWjMXQAA4jdb.jpg" class="card-img-top" alt="dev-meme-1">
+                <img src="../img/4ooord.jpg" class="card-img-top" alt="dev-meme-1">
                 <div class="">
                     <div class="barbleu1"><a>Greffe</a></div>
                     <div class="barbleu2"><a>Gencive</a></div>
@@ -40,10 +40,10 @@
                 </div>
             </div>
         </div>
-        <div class="column">
+        <div class="column1">
             <div class="card" style="width: 20rem;">
                 <div id="cercle-top"><img src="../img/Etoile_Bleu_PLeine.png" class="card-img" alt="dev-meme-1"></div>
-                <img src="../img/DuNunfwWwAIQkgA.jpg" class="card-img-top" alt="dev-meme-2">
+                <img src="../img/Git_branch_meme.webp" class="card-img-top" alt="dev-meme-2">
                 <div class="">
                     <div class="barbleu3"><a>Machoire</a></div>
                     <div class="barbleu4"><a>Parodontie</a></div>

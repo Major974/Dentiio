@@ -8,37 +8,28 @@ include("NavBar.php");
 ?>
 
 <body>
-    <img src="../img/Roi_burgonde-livreI.jpg" id="cercle-top1" alt="dev-meme-1">
-    <div class="">
-        <h1>John Doe</h1>
-        <p class="colorgrey">Médecin</p>
-        <h4>15</h4>
-        <p class="colorgrey">cas publiés</p>
-        <h4>56</h4>
-        <p class="colorgrey">Abonnés</p>
-    </div>
 
-    <!-- barrebleu 2 boutton-->
+    <img src="../img/Roi_burgonde-livreI.jpg" id="cercle-top1" alt="dev-meme-1">
+    <p class="colorblack">John Doe</p>
+    <p class="colorblack1">Médecin</p>
+    <p class="colorblack2">15</p>
+    <p class="colorblack3">cas publiés</p>
+    <p class="colorblack4">56</p>
+    <p class="colorblack5">Abonnés</p>
+
+    <!-- manque 2 boutton -->
     <div class="bleubarb">
-        <div class="publica1"><h3 id="publica">Publications</h3></div>
+        <div class="publica1">
+            <h3 id="publica">Publications</h3>
+        </div>
         <h3 id="discuss">Discussions</h3>
     </div>
-
-
-
-
-
-
-
-<br>
-<br>
-<br>
 
     <div class="row">
         <div class="column">
             <div class="card" style="width: 20rem;">
                 <div id="cercle-top"><img src="../img/Etoile_Bleu_PLeine.png" class="card-img" alt="dev-meme-1"></div>
-                <img src="../img/D2QNWjMXQAA4jdb.jpg" class="card-img-top" alt="dev-meme-1">
+                <img src="../img/4ooord.jpg" class="card-img-top" alt="dev-meme-1">
                 <div class="">
                     <div class="barbleu1"><a>Greffe</a></div>
                     <div class="barbleu2"><a>Gencive</a></div>
@@ -66,10 +57,10 @@ include("NavBar.php");
                 </div>
             </div>
         </div>
-        <div class="column">
+        <div class="column1">
             <div class="card" style="width: 20rem;">
                 <div id="cercle-top"><img src="../img/Etoile_Bleu_PLeine.png" class="card-img" alt="dev-meme-1"></div>
-                <img src="../img/DuNunfwWwAIQkgA.jpg" class="card-img-top" alt="dev-meme-2">
+                <img src="../img/Git_branch_meme.webp" class="card-img-top" alt="dev-meme-2">
                 <div class="">
                     <div class="barbleu3"><a>Machoire</a></div>
                     <div class="barbleu4"><a>Parodontie</a></div>
