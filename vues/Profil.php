@@ -2,10 +2,7 @@
 <html lang="en">
 
 <?php include '../Include/Head.php'; ?>
-
-<?php
-include("NavBar.php");
-?>
+<?php include '../vues/NavBar.php'; ?>
 
 <body>
 
@@ -18,6 +15,10 @@ include("NavBar.php");
     <p class="colorblack5">Abonnés</p>
 
     <!-- manque 2 boutton -->
+    <p class="colorblack6">Modifier vos information</p>
+    <p class="colorblack7">Se Déconnecter</p>
+    <!-- manque 2 boutton -->
+
     <div class="bleubarb">
         <div class="publica1">
             <h3 id="publica">Publications</h3>

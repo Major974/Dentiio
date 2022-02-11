@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<?php include '../Include/Head.php'; ?>
+<?php include './Include/Head.php'; ?>
 
 <body>
     <?php
-    include("../vues/NavBar.php");
+    include("./vues/NavBar.php");
     ?>
     <a href="vues/Inscription.php">Inscrip</a><br>
     <a href="vues/Connexion.php">Connexion</a><br>
