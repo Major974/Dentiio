@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<?php include 'Include/Head.php'; ?>
+<?php include '../Include/Head.php'; ?>
 
 <?php
-include("vues/NavBar.php");
+include("../vues/NavBar.php");
 ?>
 
 <body>

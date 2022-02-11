@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<?php include 'Include/Head.php'; ?>
+<?php include '../Include/Head.php'; ?>
 
 <body>
     <div class="main_container_inscrip">
