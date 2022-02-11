@@ -8,7 +8,7 @@
     <div class="main_container_inscrip">
         <div class="dentiio">
             Dentiio
-            <img src="assets/base_assets/logo192.png" height="93px" alt="">
+            <img src="img/logo192.png" height="93px" alt="">
         </div>
         <div class="container">
             <div class="form_container_inscrip p-4 d-flex flex-column justify-content-center border border-1 rounded-3">
