@@ -8,21 +8,20 @@ include("NavBar.php");
 ?>
 
 <body>
-
+    <img src="../img/Roi_burgonde-livreI.jpg" id="cercle-top1" alt="dev-meme-1">
     <div class="">
-        <img src="../img/Roi_burgonde-livreI.jpg" id="cercle-top1" alt="dev-meme-1">
         <h1>John Doe</h1>
-        <h3>Médecin</h3>
+        <p class="colorgrey">Médecin</p>
         <h4>15</h4>
-        <h4>cas publiés</h4>
+        <p class="colorgrey">cas publiés</p>
         <h4>56</h4>
-        <h4>Abonnés</h4>
+        <p class="colorgrey">Abonnés</p>
     </div>
 
     <!-- barrebleu 2 boutton-->
-    <div>
-        <h3>Publications</h3>
-        <h3>Discussions</h3>
+    <div class="bleubarb">
+        <div class="publica1"><h3 id="publica">Publications</h3></div>
+        <h3 id="discuss">Discussions</h3>
     </div>
 
 
@@ -31,6 +30,9 @@ include("NavBar.php");
 
 
 
+<br>
+<br>
+<br>
 
     <div class="row">
         <div class="column">
