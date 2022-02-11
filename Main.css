@@ -284,7 +284,8 @@ body {
     align-items: center;
     height: 10vh;
     width: auto;
-    background-color: #69aeda;
+    background-color: #03B6F0;
+    padding: 1vw;
 }
 
 #left {
@@ -307,7 +308,7 @@ body {
 }
 
 button {
-    background-color: #69aeda;
+    background-color: #03B6F0;
     border: none;
 }
 
