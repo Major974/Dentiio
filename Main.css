@@ -26,6 +26,7 @@ body {
 
 .row {
     margin: 0 -5px;
+    margin-left: 75px;
 }
 
 
@@ -164,6 +165,44 @@ body {
     background: #5f0202;
     box-sizing: border-box;
     border-radius: 100px;
+}
+
+.colorgrey {
+    color: rgb(97, 97, 97);
+}
+
+.bleubarb {
+    background-color: rgba(0, 213, 255, 0.377);
+    width: auto;
+    height: 60px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+#publica {
+    text-align: center;
+    width: 155px;
+    height: 50px;
+    left: 500px;
+    color: rgba(0, 212, 255, 1);
+}
+
+#discuss {
+    position: absolute;
+    color: white;
+    width: 155px;
+    height: 50px;
+    left: 1000px;
+    top: 505px;
+}
+
+.publica1 {
+    position: absolute;
+    width: 180px;
+    height: 50px;
+    left: 500px;
+    top: 500px;
+    background: #ffffff;
 }
 
 
