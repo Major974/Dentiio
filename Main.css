@@ -196,13 +196,14 @@ body {
 }
 
 #publica {
+    position: absolute;
     text-align: center;
     width: 155px;
     height: 50px;
-    left: 500px;
+    left: 10px;
+    top: 2px;
     color: rgba(0, 212, 255, 1);
     text-align: center;
-
 }
 
 #discuss {
@@ -211,7 +212,7 @@ body {
     width: 155px;
     height: 50px;
     left: 1000px;
-    top: 405px;
+    top: 410px;
 }
 
 .publica1 {
@@ -220,7 +221,8 @@ body {
     height: 40px;
     left: 500px;
     top: 405px;
-    background: #ffffff;
+    background: white;
+    border-radius: 50px;
 }
 
 .profil {
