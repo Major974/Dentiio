@@ -20,6 +20,7 @@ body {
     width: 25%;
     padding: 0 10px;
 }
+
 .column1 {
     position: absolute;
     float: left;
@@ -28,6 +29,7 @@ body {
     margin-left: 500px;
 }
 
+
 /* Remove extra left and right margins, due to padding in columns */
 
 .row {
@@ -35,9 +37,8 @@ body {
     margin-left: 75px;
     position: absolute;
     width: 419px;
-    height: 481px; 
+    height: 481px;
     top: 520px;
-
 }
 
 
@@ -57,7 +58,6 @@ body {
     border: 1px solid #00E0FF;
     box-sizing: border-box;
     border-radius: 14px;
-
 }
 
 #cercle {
@@ -187,7 +187,6 @@ body {
 }
 
 .bleubarb {
-    
     background-color: rgba(0, 213, 255, 0.377);
     width: auto;
     height: 60px;
@@ -202,6 +201,8 @@ body {
     height: 50px;
     left: 500px;
     color: rgba(0, 212, 255, 1);
+    text-align: center;
+
 }
 
 #discuss {
@@ -221,11 +222,13 @@ body {
     top: 405px;
     background: #ffffff;
 }
-.profil{
+
+.profil {
     text-align: left;
     margin-left: 150px;
 }
-.colorblack{
+
+.colorblack {
     position: absolute;
     width: 180px;
     height: 34px;
@@ -236,7 +239,8 @@ body {
     line-height: 47px;
     color: #000000;
 }
-.colorblack1{
+
+.colorblack1 {
     position: absolute;
     width: 126px;
     height: 35px;
@@ -247,7 +251,8 @@ body {
     line-height: 35px;
     color: rgba(0, 0, 0, 0.5);
 }
-.colorblack2{
+
+.colorblack2 {
     position: absolute;
     width: 47px;
     height: 43px;
@@ -258,7 +263,8 @@ body {
     line-height: 35px;
     color: #000000;
 }
-.colorblack3{
+
+.colorblack3 {
     position: absolute;
     width: 222px;
     height: 51px;
@@ -266,9 +272,10 @@ body {
     top: 296px;
     font-weight: 500;
     font-size: 30px;
-    line-height: 35px; 
+    line-height: 35px;
 }
-.colorblack4{
+
+.colorblack4 {
     position: absolute;
     width: 47px;
     height: 43px;
@@ -279,7 +286,8 @@ body {
     line-height: 35px;
     color: #000000;
 }
-.colorblack5{
+
+.colorblack5 {
     position: absolute;
     width: 222px;
     height: 51px;
@@ -291,6 +299,345 @@ body {
     color: rgba(0, 0, 0, 0.7);
 }
 
+.colorblack6 {
+    position: absolute;
+    width: 228px;
+    height: 32px;
+    left: 556px;
+    top: 202px;
+    background: #FFFFFF;
+    border: 1px solid #9C9C9C;
+    box-sizing: border-box;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.colorblack7 {
+    position: absolute;
+    width: 148px;
+    height: 32px;
+    left: 801px;
+    top: 202px;
+    background: #FFFFFF;
+    border: 1px solid #9C9C9C;
+    box-sizing: border-box;
+    border-radius: 20px;
+    text-align: center;
+}
+/* _________________________page message_____________________________ */
+#pict1{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 20px;
+    top: 50px; 
+    background: #6A3737;
+    border-radius: 50px;
+}#pict2{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 20px;
+    top: 200px;
+    background: #6A3737;
+    border-radius: 50px;
+}#pict3{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 20px;
+    top: 325px;
+    background: #6A3737;
+    border-radius: 50px;
+}
+#pict4{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 20px;
+    top: 480px;
+    background: #6A3737;
+    border-radius: 50px;
+}
+#pict5{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 20px;
+    top: 650px;
+    background: #6A3737;
+    border-radius: 50px;
+}
+.fondnoirs{
+    width: 1908px;
+    height: 1000px;
+    background-color: black;
+    opacity: 30%;
+}
+.chats{
+    position: absolute;
+    width: 728px;
+    height: 818px;
+    left: 151px;
+    top: 177px;
+    background-color: rgb(230, 230, 230);
+}
+.patient{
+    position: absolute;
+    width: 717px;
+    height: 818px;
+    left: 870px;
+    top: 177px;
+    background: #CFCFCF;
+}
+.c1{
+    position: absolute;
+    width: 285px;
+    height: 50px;
+    left: 100px;
+    top: 73.3px;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+    background: #D6D6D6;
+    border-radius: 10px;
+}
+.c2{
+    position: absolute;
+    width: 260px;
+    height: 40px;
+    left: 450px;
+    top: 135px; 
+    font-size: 14px;
+    line-height: 16px; 
+    color: #000000;
+    background: rgba(0, 224, 255, 0.26);
+    border-radius: 10px;
+}
+.c3{
+    position: absolute;
+    width: 60px;
+    height: 25px;
+    left: 100px;
+    top: 225px;
+    font-size: 14px;
+    line-height: 16px;  
+    color: #000000; 
+    background: #D6D6D6;
+    border-radius: 10px; 
+}
+.c4{
+    position: absolute;
+    width: 300px;
+    height: 55px;
+    left: 100px;
+    top: 360px;
+    font-size: 14px;
+    line-height: 16px;  
+    color: #000000;
+    background: #D6D6D6;
+    border-radius: 10px;
+}
+.c5{
+    position: absolute;
+    width: 125px;
+    height: 25px;
+    left: 100px;
+    top: 510px;
+    font-size: 14px;
+    line-height: 16px;  
+    color: #000000; 
+    background: #D6D6D6;
+    border-radius: 10px; 
+}
+.c6{
+    position: absolute;
+    width: 260px;
+    height: 40px;
+    left: 450px;
+    top: 578px;
+    font-size: 14px;
+    line-height: 16px; 
+    color: #000000;  
+    background: rgba(0, 224, 255, 0.26);
+    border-radius: 10px;
+}
+.c7{
+    position: absolute;
+    width: 250px;
+    height: 75px;
+    left: 100px;
+    top: 672px;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+    background: #D6D6D6;
+    border-radius: 10px;
+}
+.b1{
+    position: absolute;
+    width: 141px;
+    height: 11.03px;
+    left: 250px;
+    top: 50px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px; 
+    color: #A2A2A2;  
+}
+.b2{
+    position: absolute;
+    width: 141px;
+    height: 11.03px;
+    left: 600px;
+    top: 110px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px; 
+    color: #A2A2A2; 
+}
+.b3{
+    position: absolute;
+    width: 141px;
+    height: 11.03px;
+    left: 250px;
+    top: 200px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px; 
+    color: #A2A2A2; 
+}
+.b4{
+    position: absolute;
+    width: 141px;
+    height: 11.03px;
+    left: 250px;
+    top: 340px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px; 
+    color: #A2A2A2; 
+}
+.b5{
+    position: absolute;
+    width: 141px;
+    height: 11.03px;
+    left: 250px;
+    top: 490px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px; 
+    color: #A2A2A2; 
+}
+.b6{
+    position: absolute;
+    width: 141px;
+    height: 11.03px;
+    left: 600px;
+    top: 555px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px; 
+    color: #A2A2A2; 
+}
+.b7{
+    position: absolute;
+    width: 141px;
+    height: 11.03px;
+    left: 250px;
+    top: 650px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px; 
+    color: #A2A2A2; 
+}
+.a1{
+    position: absolute;
+    width: 62px;
+    height: 26px;
+    left: 100px;
+    top: 45px;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;  
+    color: #000000;
+}
+.a2{
+    position: absolute;
+    width: 62px;
+    height: 26px;
+    left: 100px;
+    top: 195px;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;  
+    color: #000000;   
+}
+.a3{
+    position: absolute;
+    width: 62px;
+    height: 26px;
+    left: 100px;
+    top: 335px;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;  
+    color: #000000;  
+}
+.a4{
+    position: absolute;
+    width: 62px;
+    height: 26px;
+    left: 100px;
+    top: 485px;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;  
+    color: #000000;  
+}
+.a5{
+    position: absolute;
+    width: 62px;
+    height: 26px;
+    left: 100px;
+    top: 645px;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;  
+    color: #000000;   
+}
+.envoibleu{
+    position: absolute;
+    width: 720px;
+    height: 68px;
+    left: 0px;
+    top: 750px;
+    background: #D3FAFF;  
+}
+.envoibleu1{
+    position: absolute;
+    width: 169px;
+    height: 18px;
+    left: 30px;
+    top: 25px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.envoibleu2{
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    left: 600px;
+    top: 25px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: black;
+    border: 1px solid #7e7e7e;
+    border-radius: 14px;
+}
 
 /* ______________________thomas________________________________ */
 
@@ -411,6 +758,98 @@ body {
         top: 15px;
         right: 35px;
     }
+}
+
+
+/* La home
+Ici la home */
+
+.container_barre_recherche {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    padding: 1%;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.barre_recherche_cat {
+    background: #EEEEEE;
+    box-sizing: border-box;
+    border-radius: 20px 0px 0px 20px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    padding: 2vh;
+    margin-right: 0.5vw;
+    font-size: 1rem;
+    overflow-wrap: break-word;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #626262;
+}
+
+.barre_recherch_main {
+    background: #DEF5FD;
+    font-family: Roboto;
+    padding: 2vh;
+    margin-right: 0.5vw;
+    font-size: 1rem;
+    flex-grow: 1;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    color: #626262;
+}
+
+.barre_recherch_loupe {
+    background: #03B6EF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0px 20px 20px 0px;
+    padding: 1%;
+    /* padding-top: 3%; */
+    text-align: center;
+}
+
+.sujet_container {
+    width: 80vw;
+    padding: .5rem;
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.sujet_discussion {
+    margin-right: 2%;
+    background-color: lawngreen;
+    border-radius: 10px;
+    width: 25vw;
+    Height: 25vh;
+    position: relative;
+}
+
+.sujet_discussion_portrait {
+    position: absolute;
+    left: -1vw;
+    top: 0;
+    height: 4vh;
+    width: 4vh;
+    background-color: #bbb;
+    border-radius: 50%;
+}
+
+.sujet_discussion_indicator {
+    position: absolute;
+    right: -0.5vw;
+    top: -0.4vw;
+    height: 2vh;
+    width: 2vh;
+    background-color: rgb(0, 153, 255);
+    border-radius: 50%;
 }
 
 
