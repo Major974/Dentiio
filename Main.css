@@ -851,33 +851,47 @@ Ici la home */
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 0px 20px 20px 0px;
     padding: 1%;
-    /* padding-top: 3%; */
     text-align: center;
 }
 
 .sujet_container {
-    width: 80vw;
+    width: 90vw;
     padding: .5rem;
     margin-top: 3rem;
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+}
+
+.sujet_arrow_container {
+    background-color: blue;
+    position: relative;
+    margin-left: 1vw;
+    margin-right: 5vw;
+}
+
+.sujet_arrow_container_stuff {
+    position: absolute;
+    top: 25%;
+    padding: 1vh;
+    border-radius: 50px;
+    background-color: rebeccapurple;
 }
 
 .sujet_discussion {
-    margin-right: 2%;
     background-color: lawngreen;
     border-radius: 10px;
-    width: 25vw;
+    width: 10vw;
     Height: 25vh;
     position: relative;
 }
 
 .sujet_discussion_portrait {
     position: absolute;
-    left: -1vw;
+    left: -0.8vw;
     top: 0;
-    height: 4vh;
-    width: 4vh;
+    height: 6vh;
+    width: 6vh;
     background-color: #bbb;
     border-radius: 50%;
 }

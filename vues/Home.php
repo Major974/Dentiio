@@ -9,7 +9,6 @@ include("../vues/NavBar.php");
 
 <body>
     <div class="d-flex flex-column p-2 mx-auto">
-        Container de tout
         <!-- <div class="bg-warning mx-auto border d-flex flex-row p-2"> -->
         <div class="container_barre_recherche">
 
@@ -25,40 +24,67 @@ include("../vues/NavBar.php");
                 </a>
             </div>
         </div>
-        <!-- <div class="sujet_container d-flex flex-row m-2 p-2 mt-5 justify-content-between mx-auto" style="width: 80vw;"> -->
         <div class="sujet_container mx-auto">
+            <div class="sujet_arrow_container">
+                <a href="">
+                    <div class="sujet_arrow_container_stuff">
+                        <img src="/img/outline_arrow_forward_ios_black_24dp.png" alt="" style="height:100ù; transform: rotate(180deg);">
+                    </div>
+                </a>
+            </div>
 
             <div class="sujet_discussion">
                 <div class="sujet_discussion_indicator"></div>
-                <div class="sujet_discussion_portrait"></div>
+                <div class="sujet_discussion_portrait">
+                    <img src="/img/293894935051211.png" alt="" style="height:6vh">
+                </div>
             </div>
             <div class="sujet_discussion">
                 <div class="sujet_discussion_indicator"></div>
-                <div class="sujet_discussion_portrait"></div>
+                <div class="sujet_discussion_portrait">
+                    <img src="/img/293894935051211.png" alt="" style="height:6vh">
+                </div>
             </div>
             <div class="sujet_discussion">
                 <div class="sujet_discussion_indicator"></div>
-                <div class="sujet_discussion_portrait"></div>
+                <div class="sujet_discussion_portrait">
+                    <img src="/img/293894935051211.png" alt="" style="height:6vh">
+                </div>
             </div>
             <div class="sujet_discussion">
                 <div class="sujet_discussion_indicator"></div>
-                <div class="sujet_discussion_portrait"></div>
+                <div class="sujet_discussion_portrait">
+                    <img src="/img/293894935051211.png" alt="" style="height:6vh">
+                </div>
             </div>
             <div class="sujet_discussion">
                 <div class="sujet_discussion_indicator"></div>
-                <div class="sujet_discussion_portrait"></div>
+                <div class="sujet_discussion_portrait">
+                    <img src="/img/293894935051211.png" alt="" style="height:6vh">
+                </div>
             </div>
             <div class="sujet_discussion">
                 <div class="sujet_discussion_indicator"></div>
-                <div class="sujet_discussion_portrait"></div>
+                <div class="sujet_discussion_portrait">
+                    <img src="/img/293894935051211.png" alt="" style="height:6vh">
+                </div>
             </div>
             <div class="sujet_discussion">
 
                 <div class="sujet_discussion_indicator"></div>
-                <div class="sujet_discussion_portrait"></div>
+                <div class="sujet_discussion_portrait">
+                    <img src="/img/293894935051211.png" alt="" style="height:6vh">
+                </div>
+            </div>
+            <div class="sujet_arrow_container">
+                <a href="">
+                    <div class="sujet_arrow_container_stuff">
+                        <img src="/img/outline_arrow_forward_ios_black_24dp.png" alt="" style="height:100ù;">
+                    </div>
+                </a>
             </div>
         </div>
-        Cas cliniques
+        Cas clinique
         <div class="cas_container d-flex padding flex-row justify-content-between">
             <div>
                 <div class="column">
