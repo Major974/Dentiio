@@ -24,11 +24,14 @@ include("../vues/NavBar.php");
                 </a>
             </div>
         </div>
+        <div class="container_titre_cas">
+            Sujets de discussion
+        </div>
         <div class="sujet_container mx-auto">
             <div class="sujet_arrow_container">
                 <a href="">
                     <div class="sujet_arrow_container_stuff">
-                        <img src="/img/outline_arrow_forward_ios_black_24dp.png" alt="" style="height:100ù; transform: rotate(180deg);">
+                        <img src="/img/outline_arrow_forward_ios_blue4dp.png" alt="" style="height:100ù; transform: rotate(180deg);">
                     </div>
                 </a>
             </div>
@@ -79,12 +82,26 @@ include("../vues/NavBar.php");
             <div class="sujet_arrow_container">
                 <a href="">
                     <div class="sujet_arrow_container_stuff">
-                        <img src="/img/outline_arrow_forward_ios_black_24dp.png" alt="" style="height:100ù;">
+                        <img src="/img/outline_arrow_forward_ios_blue4dp.png" alt="" style="height:100ù;">
                     </div>
                 </a>
             </div>
         </div>
-        Cas clinique
+        <div class="container_titre_cas">
+            Cas clinique
+
+        </div>
+        <div>
+            <div class="btn-group" style="margin-left:12vw; margin-top:2vh">
+                <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Tri par : Plus recent
+                </button>
+                <ul class="dropdown-menu">
+                    ...
+                </ul>
+            </div>
+        </div>
+
         <div class="cas_container d-flex padding flex-row justify-content-between">
             <div>
                 <div class="column">
