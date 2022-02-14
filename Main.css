@@ -290,6 +290,32 @@ body {
     line-height: 35px;
     color: rgba(0, 0, 0, 0.7);
 }
+.colorblack6{
+
+    position: absolute;
+    width: 228px;
+    height: 32px;
+    left: 556px;
+    top: 202px;
+    background: #FFFFFF;
+    border: 1px solid #9C9C9C;
+    box-sizing: border-box;
+    border-radius: 20px;
+    text-align: center;
+
+}
+.colorblack7{
+    position: absolute;
+    width: 148px;
+    height: 32px;
+    left: 801px;
+    top: 202px;
+    background: #FFFFFF;
+    border: 1px solid #9C9C9C;
+    box-sizing: border-box;
+    border-radius: 20px;
+    text-align: center;
+}
 
 
 /* ______________________thomas________________________________ */
