@@ -201,6 +201,8 @@ body {
     height: 50px;
     left: 500px;
     color: rgba(0, 212, 255, 1);
+    text-align: center;
+
 }
 
 #discuss {
@@ -322,7 +324,320 @@ body {
     border-radius: 20px;
     text-align: center;
 }
-
+/* _________________________page message_____________________________ */
+#pict1{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 20px;
+    top: 50px; 
+    background: #6A3737;
+    border-radius: 50px;
+}#pict2{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 20px;
+    top: 200px;
+    background: #6A3737;
+    border-radius: 50px;
+}#pict3{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 20px;
+    top: 325px;
+    background: #6A3737;
+    border-radius: 50px;
+}
+#pict4{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 20px;
+    top: 480px;
+    background: #6A3737;
+    border-radius: 50px;
+}
+#pict5{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 20px;
+    top: 650px;
+    background: #6A3737;
+    border-radius: 50px;
+}
+.fondnoirs{
+    width: 1908px;
+    height: 1000px;
+    background-color: black;
+    opacity: 30%;
+}
+.chats{
+    position: absolute;
+    width: 728px;
+    height: 818px;
+    left: 151px;
+    top: 177px;
+    background-color: rgb(230, 230, 230);
+}
+.patient{
+    position: absolute;
+    width: 717px;
+    height: 818px;
+    left: 870px;
+    top: 177px;
+    background: #CFCFCF;
+}
+.c1{
+    position: absolute;
+    width: 285px;
+    height: 50px;
+    left: 100px;
+    top: 73.3px;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+    background: #D6D6D6;
+    border-radius: 10px;
+}
+.c2{
+    position: absolute;
+    width: 260px;
+    height: 40px;
+    left: 450px;
+    top: 135px; 
+    font-size: 14px;
+    line-height: 16px; 
+    color: #000000;
+    background: rgba(0, 224, 255, 0.26);
+    border-radius: 10px;
+}
+.c3{
+    position: absolute;
+    width: 60px;
+    height: 25px;
+    left: 100px;
+    top: 225px;
+    font-size: 14px;
+    line-height: 16px;  
+    color: #000000; 
+    background: #D6D6D6;
+    border-radius: 10px; 
+}
+.c4{
+    position: absolute;
+    width: 300px;
+    height: 55px;
+    left: 100px;
+    top: 360px;
+    font-size: 14px;
+    line-height: 16px;  
+    color: #000000;
+    background: #D6D6D6;
+    border-radius: 10px;
+}
+.c5{
+    position: absolute;
+    width: 125px;
+    height: 25px;
+    left: 100px;
+    top: 510px;
+    font-size: 14px;
+    line-height: 16px;  
+    color: #000000; 
+    background: #D6D6D6;
+    border-radius: 10px; 
+}
+.c6{
+    position: absolute;
+    width: 260px;
+    height: 40px;
+    left: 450px;
+    top: 578px;
+    font-size: 14px;
+    line-height: 16px; 
+    color: #000000;  
+    background: rgba(0, 224, 255, 0.26);
+    border-radius: 10px;
+}
+.c7{
+    position: absolute;
+    width: 250px;
+    height: 75px;
+    left: 100px;
+    top: 672px;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+    background: #D6D6D6;
+    border-radius: 10px;
+}
+.b1{
+    position: absolute;
+    width: 141px;
+    height: 11.03px;
+    left: 250px;
+    top: 50px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px; 
+    color: #A2A2A2;  
+}
+.b2{
+    position: absolute;
+    width: 141px;
+    height: 11.03px;
+    left: 600px;
+    top: 110px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px; 
+    color: #A2A2A2; 
+}
+.b3{
+    position: absolute;
+    width: 141px;
+    height: 11.03px;
+    left: 250px;
+    top: 200px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px; 
+    color: #A2A2A2; 
+}
+.b4{
+    position: absolute;
+    width: 141px;
+    height: 11.03px;
+    left: 250px;
+    top: 340px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px; 
+    color: #A2A2A2; 
+}
+.b5{
+    position: absolute;
+    width: 141px;
+    height: 11.03px;
+    left: 250px;
+    top: 490px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px; 
+    color: #A2A2A2; 
+}
+.b6{
+    position: absolute;
+    width: 141px;
+    height: 11.03px;
+    left: 600px;
+    top: 555px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px; 
+    color: #A2A2A2; 
+}
+.b7{
+    position: absolute;
+    width: 141px;
+    height: 11.03px;
+    left: 250px;
+    top: 650px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px; 
+    color: #A2A2A2; 
+}
+.a1{
+    position: absolute;
+    width: 62px;
+    height: 26px;
+    left: 100px;
+    top: 45px;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;  
+    color: #000000;
+}
+.a2{
+    position: absolute;
+    width: 62px;
+    height: 26px;
+    left: 100px;
+    top: 195px;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;  
+    color: #000000;   
+}
+.a3{
+    position: absolute;
+    width: 62px;
+    height: 26px;
+    left: 100px;
+    top: 335px;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;  
+    color: #000000;  
+}
+.a4{
+    position: absolute;
+    width: 62px;
+    height: 26px;
+    left: 100px;
+    top: 485px;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;  
+    color: #000000;  
+}
+.a5{
+    position: absolute;
+    width: 62px;
+    height: 26px;
+    left: 100px;
+    top: 645px;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;  
+    color: #000000;   
+}
+.envoibleu{
+    position: absolute;
+    width: 720px;
+    height: 68px;
+    left: 0px;
+    top: 750px;
+    background: #D3FAFF;  
+}
+.envoibleu1{
+    position: absolute;
+    width: 169px;
+    height: 18px;
+    left: 30px;
+    top: 25px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.envoibleu2{
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    left: 600px;
+    top: 25px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: black;
+    border: 1px solid #7e7e7e;
+    border-radius: 14px;
+}
 
 /* ______________________thomas________________________________ */
 

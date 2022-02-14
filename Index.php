@@ -12,6 +12,8 @@
     <a href="vues/Overlay_categorie.php">Overlay</a><br>
     <a href="vues/Home.php">Home</a><br>
     <a href=""></a><br>
+    <a href="vues/Fav.php">Fav</a><br>
+    <a href="vues/Message.php">mess</a><br>
 
 </body>
 <script src="Script/Notif.js"></script>
