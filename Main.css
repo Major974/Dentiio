@@ -378,7 +378,7 @@ body {
     position: absolute;
     width: 728px;
     height: 818px;
-    left: 151px;
+    left: 230px;
     top: 177px;
     background-color: rgb(230, 230, 230);
 }
@@ -386,7 +386,7 @@ body {
     position: absolute;
     width: 717px;
     height: 818px;
-    left: 870px;
+    left: 950px;
     top: 177px;
     background: #CFCFCF;
 }
@@ -627,8 +627,8 @@ body {
 }
 .envoibleu2{
     position: absolute;
-    width: 100px;
-    height: 20px;
+    width: 115px;
+    height: 25px;
     left: 600px;
     top: 25px;
     font-weight: 500;
@@ -638,7 +638,220 @@ body {
     border: 1px solid #7e7e7e;
     border-radius: 14px;
 }
-
+.emo1{
+    position: absolute;
+    font-size: 30px; 
+    left: 500px;
+    top: 13px;
+}
+.emo2{
+    position: absolute;
+    font-size: 30px; 
+    left: 550px;
+    top: 13px;
+}
+.emo3{
+    position: absolute;
+    font-size: 30px; 
+    left: 670px;
+    top: 13px;
+}
+.patientimg{
+    position: absolute;
+    width: 717px;
+    height: 366px;
+    left: 0px;
+    top: 0px;
+    background: #6A3737;
+}
+.patientimg1{
+    position: absolute;
+    width: 150px;
+    height: 75px;
+    left: 10px;
+    top: 390px;
+    background: #6A3737;
+}
+.chirur{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 500px;
+    top: 410px;  
+    background: #6A3737;
+    border-radius: 50px; 
+}
+.chirurname{
+    position: absolute;
+    width: 72px;
+    height: 28px;
+    left: 580px;
+    top: 420px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 18px;
+}
+.chirurpost{
+    position: absolute;
+    width: 150px;
+    height: 20px;
+    left: 580px;
+    top: 440px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 14px;  
+    color: #707070;  
+}
+.presschir1{
+    position: absolute;
+    width: 263px;
+    height: 43px;
+    left: 245px;
+    top: 500px;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 29px;
+}
+.presschir2{
+    position: absolute;
+    width: 102px;
+    height: 43px;
+    left: 310px;
+    top: 670px;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 29px;
+}
+.presschir3{
+    position: absolute;
+    width: 105px;
+    height: 41px;
+    left: 10px;
+    top: 600px;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+}
+.presschir4{
+    position: absolute;
+    width: 136px;
+    height: 41px;
+    left: 200px;
+    top: 600px;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+}
+.presschir5{
+    position: absolute;
+    width: 137px;
+    height: 55px;
+    left: 400px;
+    top: 600px;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+}
+.presschir6{
+    position: absolute;
+    width: 137px;
+    height: 27px;
+    left: 550px;
+    top: 600px;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;  
+}
+.quest{
+    position: absolute;
+    width: 595px;
+    height: 81px;
+    left: 60px;
+    top: 730px;
+    background: #FFFFFF;
+    border-radius: 20px;
+}
+.quest1{
+    position: absolute;
+    width: 511px;
+    height: 43px;
+    left: 110px;
+    top: 750px;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+}
+.presschirimg1{
+position: absolute;
+font-size: 30px; 
+left: 50px;
+top: 550px;
+}
+.presschirimg2{
+    position: absolute;
+    font-size: 30px; 
+    left: 250px;
+    top: 550px;
+}
+.presschirimg3{
+    position: absolute;
+    font-size: 30px; 
+    left: 450px;
+    top: 550px;
+}
+.presschirimg4{
+    position: absolute;
+    font-size: 30px; 
+    left: 600px;
+    top: 550px;
+}
+.trai1{
+    position: absolute;
+    width: 245px;
+    height: 31px;
+    left: 10px;
+    top: 500px;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    color: #999999;
+}
+.trai2{
+    position: absolute;
+    width: 232px;
+    height: 31px;
+    left: 490px;
+    top: 500px;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    color: #999999; 
+}
+.trai3{
+    position: absolute;
+    width: 245px;
+    height: 31px;
+    left: 10px;
+    top: 670px;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    color: #999999; 
+}
+.trai4{
+    position: absolute;
+    width: 245px;
+    height: 31px;
+    left: 450px;
+    top: 670px;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    color: #999999;   
+}
 /* ______________________thomas________________________________ */
 
 
