@@ -45,6 +45,7 @@ include("NavBar.php");
                     </div>
                 </div>
             </div>
+
             <div class="column1">
                 <div class="card" style="width: 20rem;">
                     <div id="cercle-top"><img src="../img/Etoile_Bleu_PLeine.png" class="card-img" alt="dev-meme-1"></div>
@@ -82,10 +83,12 @@ include("NavBar.php");
             </div>
         </div>
     </div>
+    </div>
+    </div>
 </body>
 <footer>
-<script src="../Script/Notif.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="../Script/Notif.js"></script>
 </footer>
 
 

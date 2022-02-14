@@ -51,7 +51,7 @@ html {
     position: absolute;
     width: 419px;
     height: 481px;
-    top: 520px;
+    top: 350px;
 }
 
 
@@ -1287,6 +1287,7 @@ button#toggle {
 #toggle.on+#menu {
     opacity: 1;
     visibility: visible;
+    z-index: 3;
 }
 
 

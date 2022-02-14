@@ -99,10 +99,14 @@
 
             </div>
             <div class="quest"> </div>
-                <p class="quest1">Le patient présent une péri - implantite en 37, mais pas de douleurs ni d'infections visibles en bouche. Quel traitement réaliser ?</p>
-           
+            <p class="quest1">Le patient présent une péri - implantite en 37, mais pas de douleurs ni d'infections visibles en bouche. Quel traitement réaliser ?</p>
+
         </div>
     </div>
 </body>
+<footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="../Script/Notif.js"></script>
+</footer>
 
 </html>
