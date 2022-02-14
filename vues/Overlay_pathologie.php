@@ -7,7 +7,7 @@
 // include("../vues/NavBar.php");
 ?>
 
-<div id="myNav" class="overlay">
+<div id="myNav_path" class="overlay">
 
     <div class="overlay-content">
 
@@ -75,6 +75,6 @@
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
     </div>
 </div>
-<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+<!-- <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span> -->
 
 <script src="../Script/overlay_sidebar.js"></script>

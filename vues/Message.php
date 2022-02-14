@@ -7,7 +7,7 @@
 </head>
 
 <body>
-
+    <!-- zindex la page home -->
     <div class="fondnoirs"></div>
     <div class="chat&patient">
         <div class="chats">
@@ -39,7 +39,7 @@
                 <p class="b4">9.30 Aujourd'hui</p>
                 <div class="backmes4">
                     <p class="c4">Oui, sepration des deux couronnes,
-                         enlever implant en 37 et curetage pour bien nettoyer toute l'infection</p>
+                        enlever implant en 37 et curetage pour bien nettoyer toute l'infection</p>
                 </div>
             </div>
             <div>
@@ -62,16 +62,45 @@
                 <p class="b7">9.45 Aujourd'hui</p>
                 <div class="backmes7">
                     <p class="c7">Si le curetage est efficient pas besoin, mais à surveiller,
-                         en cas de mauvaise cicatrisation il faudra mettre sous antibiotique</p>
+                        en cas de mauvaise cicatrisation il faudra mettre sous antibiotique</p>
                 </div>
             </div>
             <div class="envoibleu">
                 <p class="envoibleu1">Envoyer un message...</p>
                 <p class="envoibleu2">envoyer</p>
+                <p class="emo1">😁</p>
+                <p class="emo2">📎</p>
+                <p class="emo3">📨</p>
             </div>
         </div>
         <div class="patient">
+            <div class="patientimg"></div>
+            <div class="patientimg1"></div>
+            <div class="chirur"></div>
+            <p class="chirurname">Romain</p>
+            <p class="chirurpost">chirurgien-dentiste</p>
 
+            <div class="presschir">
+
+                <p class="presschir1">Historique du patient</p>
+                <p class="trai1">__________________________</p>
+                <p class="trai2">__________________________</p>
+                <p class="trai3">_______________________________</p>
+                <p class="trai4">_______________________________</p>
+                <p class="presschir2">Question</p>
+                <p class="presschirimg1">👤</p>
+                <p class="presschirimg2">🍸</p>
+                <p class="presschirimg3">💊</p>
+                <p class="presschirimg4">➕</p>
+                <p class="presschir3">57 ans Homme</p>
+                <p class="presschir4">Non fumeur Alcool occasionnel</p>
+                <p class="presschir5">Aucune allergie aucun antecédant médical</p>
+                <p class="presschir6">Contrôle de routine</p>
+
+            </div>
+            <div class="quest"> </div>
+                <p class="quest1">Le patient présent une péri - implantite en 37, mais pas de douleurs ni d'infections visibles en bouche. Quel traitement réaliser ?</p>
+           
         </div>
     </div>
 </body>

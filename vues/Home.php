@@ -13,7 +13,10 @@ include("../vues/NavBar.php");
         <div class="container_barre_recherche">
 
             <div class="barre_recherche_cat">
-                Toutes les categories
+
+                <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" style="background-color: transparent;">
+                    Toutes les categories
+                </button>
             </div>
             <div class="barre_recherch_main">
                 Pathologie
@@ -219,6 +222,20 @@ include("../vues/NavBar.php");
                 </div>
             </Div>
         </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <?php
+                    include("Overlay_categorie.php");
+                    ?>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
     </div>
     <script src="../Script/Notif.js"></script>
 </body>
