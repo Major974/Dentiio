@@ -45,6 +45,7 @@ include("NavBar.php");
                     </div>
                 </div>
             </div>
+
             <div class="column1">
                 <div class="card" style="width: 20rem;">
                     <div id="cercle-top"><img src="../img/Etoile_Bleu_PLeine.png" class="card-img" alt="dev-meme-1"></div>
@@ -81,6 +82,8 @@ include("NavBar.php");
                 </div>
             </div>
         </div>
+    </div>
+    </div>
     </div>
 </body>
 <footer>
