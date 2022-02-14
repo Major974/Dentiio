@@ -2,12 +2,11 @@
 <html lang="en">
 
 <?php include '../Include/Head.php'; ?>
-
 <?php
-// include("../vues/NavBar.php");
+require_once 'Overlay_pathologie.php';
 ?>
 
-<div id="myNav" class="overlay">
+<div id="myNav_cat" class="overlay">
 
     <div class="overlay-content">
 
@@ -19,7 +18,7 @@
 
             <div class="cat_container d-flex flex-column  p-2">
                 <div class="category_button p-2">
-                    <a href="Inscription.php">Pathologie
+                    <a id="bouton_pathologie" onclick="go_to_path()">Pathologie
                         <img src="/img/outline_arrow_forward_ios_black_24dp.png" style="float:right">
                     </a>
                 </div>
@@ -45,6 +44,6 @@
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
     </div>
 </div>
-<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+<!-- <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span> -->
 
 <script src="../Script/overlay_sidebar.js"></script>
