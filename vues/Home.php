@@ -220,4 +220,5 @@ include("../vues/NavBar.php");
             </Div>
         </div>
     </div>
+    <script src="../Script/Notif.js"></script>
 </body>
