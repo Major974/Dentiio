@@ -5,13 +5,18 @@
 }
 
 * {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
 body {
     font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
 }
 
+html { min-height: 100%;
+}
 
 /* Float four columns side by side */
 
@@ -1071,4 +1076,12 @@ button#toggle {
 
 div#specIcon {
     width: 50px;
+}
+
+@media screen and (max-width: 700px) {
+    #mobile-card{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
 }
