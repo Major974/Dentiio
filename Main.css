@@ -1287,6 +1287,7 @@ button#toggle {
 #toggle.on+#menu {
     opacity: 1;
     visibility: visible;
+    z-index: 3;
 }
 
 
