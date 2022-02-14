@@ -29,6 +29,12 @@ body {
     margin-left: 500px;
 }
 
+.column-1 {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+}
+
 
 /* Remove extra left and right margins, due to padding in columns */
 
@@ -202,7 +208,6 @@ body {
     left: 500px;
     color: rgba(0, 212, 255, 1);
     text-align: center;
-
 }
 
 #discuss {
@@ -324,16 +329,21 @@ body {
     border-radius: 20px;
     text-align: center;
 }
+
+
 /* _________________________page message_____________________________ */
-#pict1{
+
+#pict1 {
     position: absolute;
     width: 50px;
     height: 50px;
     left: 20px;
-    top: 50px; 
+    top: 50px;
     background: #6A3737;
     border-radius: 50px;
-}#pict2{
+}
+
+#pict2 {
     position: absolute;
     width: 50px;
     height: 50px;
@@ -341,7 +351,9 @@ body {
     top: 200px;
     background: #6A3737;
     border-radius: 50px;
-}#pict3{
+}
+
+#pict3 {
     position: absolute;
     width: 50px;
     height: 50px;
@@ -350,7 +362,8 @@ body {
     background: #6A3737;
     border-radius: 50px;
 }
-#pict4{
+
+#pict4 {
     position: absolute;
     width: 50px;
     height: 50px;
@@ -359,7 +372,8 @@ body {
     background: #6A3737;
     border-radius: 50px;
 }
-#pict5{
+
+#pict5 {
     position: absolute;
     width: 50px;
     height: 50px;
@@ -368,13 +382,15 @@ body {
     background: #6A3737;
     border-radius: 50px;
 }
-.fondnoirs{
+
+.fondnoirs {
     width: 1908px;
     height: 1000px;
     background-color: black;
     opacity: 30%;
 }
-.chats{
+
+.chats {
     position: absolute;
     width: 728px;
     height: 818px;
@@ -382,7 +398,8 @@ body {
     top: 177px;
     background-color: rgb(230, 230, 230);
 }
-.patient{
+
+.patient {
     position: absolute;
     width: 717px;
     height: 818px;
@@ -390,7 +407,8 @@ body {
     top: 177px;
     background: #CFCFCF;
 }
-.c1{
+
+.c1 {
     position: absolute;
     width: 285px;
     height: 50px;
@@ -402,67 +420,73 @@ body {
     background: #D6D6D6;
     border-radius: 10px;
 }
-.c2{
+
+.c2 {
     position: absolute;
     width: 260px;
     height: 40px;
     left: 450px;
-    top: 135px; 
+    top: 135px;
     font-size: 14px;
-    line-height: 16px; 
+    line-height: 16px;
     color: #000000;
     background: rgba(0, 224, 255, 0.26);
     border-radius: 10px;
 }
-.c3{
+
+.c3 {
     position: absolute;
     width: 60px;
     height: 25px;
     left: 100px;
     top: 225px;
     font-size: 14px;
-    line-height: 16px;  
-    color: #000000; 
+    line-height: 16px;
+    color: #000000;
     background: #D6D6D6;
-    border-radius: 10px; 
+    border-radius: 10px;
 }
-.c4{
+
+.c4 {
     position: absolute;
     width: 300px;
     height: 55px;
     left: 100px;
     top: 360px;
     font-size: 14px;
-    line-height: 16px;  
+    line-height: 16px;
     color: #000000;
     background: #D6D6D6;
     border-radius: 10px;
 }
-.c5{
+
+.c5 {
     position: absolute;
     width: 125px;
     height: 25px;
     left: 100px;
     top: 510px;
     font-size: 14px;
-    line-height: 16px;  
-    color: #000000; 
+    line-height: 16px;
+    color: #000000;
     background: #D6D6D6;
-    border-radius: 10px; 
+    border-radius: 10px;
 }
-.c6{
+
+.c6 {
     position: absolute;
     width: 260px;
     height: 40px;
     left: 450px;
     top: 578px;
     font-size: 14px;
-    line-height: 16px; 
-    color: #000000;  
+    line-height: 16px;
+    color: #000000;
     background: rgba(0, 224, 255, 0.26);
     border-radius: 10px;
 }
-.c7{
+
+.c7 {
     position: absolute;
     width: 250px;
     height: 75px;
@@ -474,7 +498,8 @@ body {
     background: #D6D6D6;
     border-radius: 10px;
 }
-.b1{
+
+.b1 {
     position: absolute;
     width: 141px;
     height: 11.03px;
@@ -482,10 +507,11 @@ body {
     top: 50px;
     font-weight: 500;
     font-size: 12px;
-    line-height: 14px; 
-    color: #A2A2A2;  
+    line-height: 14px;
+    color: #A2A2A2;
 }
-.b2{
+
+.b2 {
     position: absolute;
     width: 141px;
     height: 11.03px;
@@ -493,10 +519,11 @@ body {
     top: 110px;
     font-weight: 500;
     font-size: 12px;
-    line-height: 14px; 
-    color: #A2A2A2; 
+    line-height: 14px;
+    color: #A2A2A2;
 }
-.b3{
+
+.b3 {
     position: absolute;
     width: 141px;
     height: 11.03px;
@@ -504,10 +531,11 @@ body {
     top: 200px;
     font-weight: 500;
     font-size: 12px;
-    line-height: 14px; 
-    color: #A2A2A2; 
+    line-height: 14px;
+    color: #A2A2A2;
 }
-.b4{
+
+.b4 {
     position: absolute;
     width: 141px;
     height: 11.03px;
@@ -515,10 +543,11 @@ body {
     top: 340px;
     font-weight: 500;
     font-size: 12px;
-    line-height: 14px; 
-    color: #A2A2A2; 
+    line-height: 14px;
+    color: #A2A2A2;
 }
-.b5{
+
+.b5 {
     position: absolute;
     width: 141px;
     height: 11.03px;
@@ -526,10 +555,11 @@ body {
     top: 490px;
     font-weight: 500;
     font-size: 12px;
-    line-height: 14px; 
-    color: #A2A2A2; 
+    line-height: 14px;
+    color: #A2A2A2;
 }
-.b6{
+
+.b6 {
     position: absolute;
     width: 141px;
     height: 11.03px;
@@ -537,10 +567,11 @@ body {
     top: 555px;
     font-weight: 500;
     font-size: 12px;
-    line-height: 14px; 
-    color: #A2A2A2; 
+    line-height: 14px;
+    color: #A2A2A2;
 }
-.b7{
+
+.b7 {
     position: absolute;
     width: 141px;
     height: 11.03px;
@@ -548,10 +579,11 @@ body {
     top: 650px;
     font-weight: 500;
     font-size: 12px;
-    line-height: 14px; 
-    color: #A2A2A2; 
+    line-height: 14px;
+    color: #A2A2A2;
 }
-.a1{
+
+.a1 {
     position: absolute;
     width: 62px;
     height: 26px;
@@ -559,10 +591,11 @@ body {
     top: 45px;
     font-weight: 500;
     font-size: 17px;
-    line-height: 20px;  
+    line-height: 20px;
     color: #000000;
 }
-.a2{
+
+.a2 {
     position: absolute;
     width: 62px;
     height: 26px;
@@ -570,10 +603,11 @@ body {
     top: 195px;
     font-weight: 500;
     font-size: 17px;
-    line-height: 20px;  
-    color: #000000;   
+    line-height: 20px;
+    color: #000000;
 }
-.a3{
+
+.a3 {
     position: absolute;
     width: 62px;
     height: 26px;
@@ -581,10 +615,11 @@ body {
     top: 335px;
     font-weight: 500;
     font-size: 17px;
-    line-height: 20px;  
-    color: #000000;  
+    line-height: 20px;
+    color: #000000;
 }
-.a4{
+
+.a4 {
     position: absolute;
     width: 62px;
     height: 26px;
@@ -592,10 +627,11 @@ body {
     top: 485px;
     font-weight: 500;
     font-size: 17px;
-    line-height: 20px;  
-    color: #000000;  
+    line-height: 20px;
+    color: #000000;
 }
-.a5{
+
+.a5 {
     position: absolute;
     width: 62px;
     height: 26px;
@@ -603,18 +639,20 @@ body {
     top: 645px;
     font-weight: 500;
     font-size: 17px;
-    line-height: 20px;  
-    color: #000000;   
+    line-height: 20px;
+    color: #000000;
 }
-.envoibleu{
+
+.envoibleu {
     position: absolute;
     width: 720px;
     height: 68px;
     left: 0px;
     top: 750px;
-    background: #D3FAFF;  
+    background: #D3FAFF;
 }
-.envoibleu1{
+
+.envoibleu1 {
     position: absolute;
     width: 169px;
     height: 18px;
@@ -625,7 +663,8 @@ body {
     line-height: 18px;
     color: rgba(0, 0, 0, 0.5);
 }
-.envoibleu2{
+
+.envoibleu2 {
     position: absolute;
     width: 100px;
     height: 20px;
@@ -638,6 +677,7 @@ body {
     border: 1px solid #7e7e7e;
     border-radius: 14px;
 }
+
 
 /* ______________________thomas________________________________ */
 
@@ -850,6 +890,18 @@ Ici la home */
     width: 2vh;
     background-color: rgb(0, 153, 255);
     border-radius: 50%;
+}
+
+.cas_container {
+    width: 80vw;
+    padding: .5rem;
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: row;
+    padding: 2%;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
