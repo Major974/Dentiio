@@ -37,44 +37,44 @@ include("../vues/NavBar.php");
             </div>
 
             <div class="sujet_discussion">
-                <div class="sujet_discussion_indicator"></div>
+                <div class="sujet_discussion_indicator">5</div>
                 <div class="sujet_discussion_portrait">
                     <img src="/img/293894935051211.png" alt="" style="height:6vh">
                 </div>
             </div>
             <div class="sujet_discussion">
-                <div class="sujet_discussion_indicator"></div>
+                <div class="sujet_discussion_indicator">3</div>
                 <div class="sujet_discussion_portrait">
                     <img src="/img/293894935051211.png" alt="" style="height:6vh">
                 </div>
             </div>
             <div class="sujet_discussion">
-                <div class="sujet_discussion_indicator"></div>
+                <div class="sujet_discussion_indicator">3</div>
                 <div class="sujet_discussion_portrait">
                     <img src="/img/293894935051211.png" alt="" style="height:6vh">
                 </div>
             </div>
             <div class="sujet_discussion">
-                <div class="sujet_discussion_indicator"></div>
+                <div class="sujet_discussion_indicator">2</div>
                 <div class="sujet_discussion_portrait">
                     <img src="/img/293894935051211.png" alt="" style="height:6vh">
                 </div>
             </div>
             <div class="sujet_discussion">
-                <div class="sujet_discussion_indicator"></div>
+                <div class="sujet_discussion_indicator">7</div>
                 <div class="sujet_discussion_portrait">
                     <img src="/img/293894935051211.png" alt="" style="height:6vh">
                 </div>
             </div>
             <div class="sujet_discussion">
-                <div class="sujet_discussion_indicator"></div>
+                <div class="sujet_discussion_indicator">5</div>
                 <div class="sujet_discussion_portrait">
                     <img src="/img/293894935051211.png" alt="" style="height:6vh">
                 </div>
             </div>
             <div class="sujet_discussion">
 
-                <div class="sujet_discussion_indicator"></div>
+                <div class="sujet_discussion_indicator">9</div>
                 <div class="sujet_discussion_portrait">
                     <img src="/img/293894935051211.png" alt="" style="height:6vh">
                 </div>

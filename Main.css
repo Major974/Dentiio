@@ -910,6 +910,8 @@ Ici la home */
     width: 2vh;
     background-color: rgb(0, 153, 255);
     border-radius: 50%;
+    text-align: center;
+    vertical-align: top;
 }
 
 .container_titre_cas {
