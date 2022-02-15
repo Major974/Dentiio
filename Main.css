@@ -1,7 +1,10 @@
 .fav {
-    font-size: 80px;
-    margin-left: 750px;
-    margin-top: 50px;
+    font-size: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10vh;
+    align-items: center;
+    text-align: center;
 }
 
 * {
@@ -1003,7 +1006,10 @@ html {
 
 .cat_container {
     height: 100%;
-    width: 20vw;
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .cat_container_titre {
@@ -1015,12 +1021,58 @@ html {
     color: #FFFFFF;
 }
 
+.category_button {
+    font-size: larger;
+    width: 25vw;
+}
+
+.category_button_path {
+    margin-bottom: 2%;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: left;
+    padding-left: 5%
+}
+
+.category_button_sections {
+    display: flex;
+}
+
+.cat_container_section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.cat_cat_container {
+    display: flex;
+    flex-direction: row;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    align-items: center;
+    color: #03B6F0;
+}
+
+.cat_blue_line {
+    background-color: rgb(0, 153, 255);
+    height: 1vh;
+    width: 50%;
+}
+
+.cat_arrow {
+    float: right;
+    height: 5vh;
+}
+
 
 /* Honteusement derobé à W3 School */
 
 .overlay {
     height: 100vh;
-    width: 20vw;
+    width: 25vw;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -1033,14 +1085,14 @@ html {
 .overlay-content {
     position: relative;
     top: 0;
-    width: 20vw;
+    width: 25vw;
     text-align: center;
 }
 
 .overlay a {
     padding: 8px;
     text-decoration: none;
-    font-size: 20px;
+    /* display: flex; */
     color: #818181;
     display: block;
     transition: 0.3s;
@@ -1049,7 +1101,7 @@ html {
 .overlay a:hover,
 .overlay a:focus {
     color: #3f3f3f;
-    font-size: 200%;
+    font-size: 125%;
 }
 
 .overlay .closebtn {
@@ -1212,7 +1264,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 10vh;
+    height: 14vh;
     width: auto;
     background-color: #03B6F0;
     padding: 1vw;

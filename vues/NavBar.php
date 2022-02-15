@@ -16,7 +16,7 @@
         </div>
 
 
-        <img src="../img/logoBlancComplet.png" alt="logoBlancComplet" width="289px" height="93px" />
+        <img src="../img/logoBlancComplet.png" alt="logoBlancComplet"  height="100%" />
 
         <ul>
             <input type="search" name="SearchBar" id="SearchBar" placeholder="+ Ajoutez en cas clinique">
