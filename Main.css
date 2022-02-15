@@ -928,8 +928,27 @@ html {
     line-height: 18px;
     color: #999999;
 }
-
-
+.clossemess{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 690px;
+    top: -20px;
+    background: #ffffff;
+    box-sizing: border-box;
+    border-radius: 50px;
+}
+.clossemess1{
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    left: 17px;
+    top: 13px;    
+}
+/* ______________last min_____________________ */
+.lastmin1{
+    font-size: 12px;
+}
 /* ______________________thomas________________________________ */
 
 
