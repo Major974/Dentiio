@@ -165,7 +165,7 @@
                 </div>
             </div>
         </div>
-
+        <a href="/vues/Home.php" class="closebtn" onclick="closeNav()">&times;</a>
     </div>
 
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
