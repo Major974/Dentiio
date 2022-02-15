@@ -5,11 +5,18 @@
 }
 
 * {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
 body {
     font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+}
+
+html {
+    min-height: 100%;
 }
 
 
@@ -27,6 +34,12 @@ body {
     width: 25%;
     padding: 0 10px;
     margin-left: 500px;
+}
+
+.column-1 {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
 }
 
 
@@ -326,16 +339,21 @@ body {
     border-radius: 20px;
     text-align: center;
 }
+
+
 /* _________________________page message_____________________________ */
-#pict1{
+
+#pict1 {
     position: absolute;
     width: 50px;
     height: 50px;
     left: 20px;
-    top: 50px; 
+    top: 50px;
     background: #6A3737;
     border-radius: 50px;
-}#pict2{
+}
+
+#pict2 {
     position: absolute;
     width: 50px;
     height: 50px;
@@ -343,7 +361,9 @@ body {
     top: 200px;
     background: #6A3737;
     border-radius: 50px;
-}#pict3{
+}
+
+#pict3 {
     position: absolute;
     width: 50px;
     height: 50px;
@@ -352,7 +372,8 @@ body {
     background: #6A3737;
     border-radius: 50px;
 }
-#pict4{
+
+#pict4 {
     position: absolute;
     width: 50px;
     height: 50px;
@@ -361,7 +382,8 @@ body {
     background: #6A3737;
     border-radius: 50px;
 }
-#pict5{
+
+#pict5 {
     position: absolute;
     width: 50px;
     height: 50px;
@@ -370,13 +392,15 @@ body {
     background: #6A3737;
     border-radius: 50px;
 }
-.fondnoirs{
+
+.fondnoirs {
     width: 1908px;
     height: 1000px;
     background-color: black;
     opacity: 30%;
 }
-.chats{
+
+.chats {
     position: absolute;
     width: 728px;
     height: 818px;
@@ -384,7 +408,8 @@ body {
     top: 177px;
     background-color: rgb(230, 230, 230);
 }
-.patient{
+
+.patient {
     position: absolute;
     width: 717px;
     height: 818px;
@@ -392,7 +417,8 @@ body {
     top: 177px;
     background: #CFCFCF;
 }
-.c1{
+
+.c1 {
     position: absolute;
     width: 285px;
     height: 50px;
@@ -404,67 +430,73 @@ body {
     background: #D6D6D6;
     border-radius: 10px;
 }
-.c2{
+
+.c2 {
     position: absolute;
     width: 260px;
     height: 40px;
     left: 450px;
-    top: 135px; 
+    top: 135px;
     font-size: 14px;
-    line-height: 16px; 
+    line-height: 16px;
     color: #000000;
     background: rgba(0, 224, 255, 0.26);
     border-radius: 10px;
 }
-.c3{
+
+.c3 {
     position: absolute;
     width: 60px;
     height: 25px;
     left: 100px;
     top: 225px;
     font-size: 14px;
-    line-height: 16px;  
-    color: #000000; 
+    line-height: 16px;
+    color: #000000;
     background: #D6D6D6;
-    border-radius: 10px; 
+    border-radius: 10px;
 }
-.c4{
+
+.c4 {
     position: absolute;
     width: 300px;
     height: 55px;
     left: 100px;
     top: 360px;
     font-size: 14px;
-    line-height: 16px;  
+    line-height: 16px;
     color: #000000;
     background: #D6D6D6;
     border-radius: 10px;
 }
-.c5{
+
+.c5 {
     position: absolute;
     width: 125px;
     height: 25px;
     left: 100px;
     top: 510px;
     font-size: 14px;
-    line-height: 16px;  
-    color: #000000; 
+    line-height: 16px;
+    color: #000000;
     background: #D6D6D6;
-    border-radius: 10px; 
+    border-radius: 10px;
 }
-.c6{
+
+.c6 {
     position: absolute;
     width: 260px;
     height: 40px;
     left: 450px;
     top: 578px;
     font-size: 14px;
-    line-height: 16px; 
-    color: #000000;  
+    line-height: 16px;
+    color: #000000;
     background: rgba(0, 224, 255, 0.26);
     border-radius: 10px;
 }
-.c7{
+
+.c7 {
     position: absolute;
     width: 250px;
     height: 75px;
@@ -476,7 +508,8 @@ body {
     background: #D6D6D6;
     border-radius: 10px;
 }
-.b1{
+
+.b1 {
     position: absolute;
     width: 141px;
     height: 11.03px;
@@ -484,10 +517,11 @@ body {
     top: 50px;
     font-weight: 500;
     font-size: 12px;
-    line-height: 14px; 
-    color: #A2A2A2;  
+    line-height: 14px;
+    color: #A2A2A2;
 }
-.b2{
+
+.b2 {
     position: absolute;
     width: 141px;
     height: 11.03px;
@@ -495,10 +529,11 @@ body {
     top: 110px;
     font-weight: 500;
     font-size: 12px;
-    line-height: 14px; 
-    color: #A2A2A2; 
+    line-height: 14px;
+    color: #A2A2A2;
 }
-.b3{
+
+.b3 {
     position: absolute;
     width: 141px;
     height: 11.03px;
@@ -506,10 +541,11 @@ body {
     top: 200px;
     font-weight: 500;
     font-size: 12px;
-    line-height: 14px; 
-    color: #A2A2A2; 
+    line-height: 14px;
+    color: #A2A2A2;
 }
-.b4{
+
+.b4 {
     position: absolute;
     width: 141px;
     height: 11.03px;
@@ -517,10 +553,11 @@ body {
     top: 340px;
     font-weight: 500;
     font-size: 12px;
-    line-height: 14px; 
-    color: #A2A2A2; 
+    line-height: 14px;
+    color: #A2A2A2;
 }
-.b5{
+
+.b5 {
     position: absolute;
     width: 141px;
     height: 11.03px;
@@ -528,10 +565,11 @@ body {
     top: 490px;
     font-weight: 500;
     font-size: 12px;
-    line-height: 14px; 
-    color: #A2A2A2; 
+    line-height: 14px;
+    color: #A2A2A2;
 }
-.b6{
+
+.b6 {
     position: absolute;
     width: 141px;
     height: 11.03px;
@@ -539,10 +577,11 @@ body {
     top: 555px;
     font-weight: 500;
     font-size: 12px;
-    line-height: 14px; 
-    color: #A2A2A2; 
+    line-height: 14px;
+    color: #A2A2A2;
 }
-.b7{
+
+.b7 {
     position: absolute;
     width: 141px;
     height: 11.03px;
@@ -550,10 +589,11 @@ body {
     top: 650px;
     font-weight: 500;
     font-size: 12px;
-    line-height: 14px; 
-    color: #A2A2A2; 
+    line-height: 14px;
+    color: #A2A2A2;
 }
-.a1{
+
+.a1 {
     position: absolute;
     width: 62px;
     height: 26px;
@@ -561,10 +601,11 @@ body {
     top: 45px;
     font-weight: 500;
     font-size: 17px;
-    line-height: 20px;  
+    line-height: 20px;
     color: #000000;
 }
-.a2{
+
+.a2 {
     position: absolute;
     width: 62px;
     height: 26px;
@@ -572,10 +613,11 @@ body {
     top: 195px;
     font-weight: 500;
     font-size: 17px;
-    line-height: 20px;  
-    color: #000000;   
+    line-height: 20px;
+    color: #000000;
 }
-.a3{
+
+.a3 {
     position: absolute;
     width: 62px;
     height: 26px;
@@ -583,10 +625,11 @@ body {
     top: 335px;
     font-weight: 500;
     font-size: 17px;
-    line-height: 20px;  
-    color: #000000;  
+    line-height: 20px;
+    color: #000000;
 }
-.a4{
+
+.a4 {
     position: absolute;
     width: 62px;
     height: 26px;
@@ -594,10 +637,11 @@ body {
     top: 485px;
     font-weight: 500;
     font-size: 17px;
-    line-height: 20px;  
-    color: #000000;  
+    line-height: 20px;
+    color: #000000;
 }
-.a5{
+
+.a5 {
     position: absolute;
     width: 62px;
     height: 26px;
@@ -605,18 +649,20 @@ body {
     top: 645px;
     font-weight: 500;
     font-size: 17px;
-    line-height: 20px;  
-    color: #000000;   
+    line-height: 20px;
+    color: #000000;
 }
-.envoibleu{
+
+.envoibleu {
     position: absolute;
     width: 720px;
     height: 68px;
     left: 0px;
     top: 750px;
-    background: #D3FAFF;  
+    background: #D3FAFF;
 }
-.envoibleu1{
+
+.envoibleu1 {
     position: absolute;
     width: 169px;
     height: 18px;
@@ -627,7 +673,8 @@ body {
     line-height: 18px;
     color: rgba(0, 0, 0, 0.5);
 }
-.envoibleu2{
+
+.envoibleu2 {
     position: absolute;
     width: 115px;
     height: 25px;
@@ -640,25 +687,29 @@ body {
     border: 1px solid #7e7e7e;
     border-radius: 14px;
 }
-.emo1{
+
+.emo1 {
     position: absolute;
-    font-size: 30px; 
+    font-size: 30px;
     left: 500px;
     top: 13px;
 }
-.emo2{
+
+.emo2 {
     position: absolute;
-    font-size: 30px; 
+    font-size: 30px;
     left: 550px;
     top: 13px;
 }
-.emo3{
+
+.emo3 {
     position: absolute;
-    font-size: 30px; 
+    font-size: 30px;
     left: 670px;
     top: 13px;
 }
-.patientimg{
+
+.patientimg {
     position: absolute;
     width: 717px;
     height: 366px;
@@ -666,7 +717,8 @@ body {
     top: 0px;
     background: #6A3737;
 }
-.patientimg1{
+
+.patientimg1 {
     position: absolute;
     width: 150px;
     height: 75px;
@@ -674,16 +726,18 @@ body {
     top: 390px;
     background: #6A3737;
 }
-.chirur{
+
+.chirur {
     position: absolute;
     width: 60px;
     height: 60px;
     left: 500px;
-    top: 410px;  
+    top: 410px;
     background: #6A3737;
-    border-radius: 50px; 
+    border-radius: 50px;
 }
-.chirurname{
+
+.chirurname {
     position: absolute;
     width: 72px;
     height: 28px;
@@ -693,7 +747,8 @@ body {
     font-size: 20px;
     line-height: 18px;
 }
-.chirurpost{
+
+.chirurpost {
     position: absolute;
     width: 150px;
     height: 20px;
@@ -701,10 +756,11 @@ body {
     top: 440px;
     font-weight: 500;
     font-size: 15px;
-    line-height: 14px;  
-    color: #707070;  
+    line-height: 14px;
+    color: #707070;
 }
-.presschir1{
+
+.presschir1 {
     position: absolute;
     width: 263px;
     height: 43px;
@@ -714,7 +770,8 @@ body {
     font-size: 25px;
     line-height: 29px;
 }
-.presschir2{
+
+.presschir2 {
     position: absolute;
     width: 102px;
     height: 43px;
@@ -724,7 +781,8 @@ body {
     font-size: 25px;
     line-height: 29px;
 }
-.presschir3{
+
+.presschir3 {
     position: absolute;
     width: 105px;
     height: 41px;
@@ -735,7 +793,8 @@ body {
     line-height: 18px;
     text-align: center;
 }
-.presschir4{
+
+.presschir4 {
     position: absolute;
     width: 136px;
     height: 41px;
@@ -745,7 +804,8 @@ body {
     font-size: 15px;
     line-height: 18px;
 }
-.presschir5{
+
+.presschir5 {
     position: absolute;
     width: 137px;
     height: 55px;
@@ -756,7 +816,8 @@ body {
     line-height: 18px;
     text-align: center;
 }
-.presschir6{
+
+.presschir6 {
     position: absolute;
     width: 137px;
     height: 27px;
@@ -765,9 +826,10 @@ body {
     font-weight: 300;
     font-size: 15px;
     line-height: 18px;
-    text-align: center;  
+    text-align: center;
 }
-.quest{
+
+.quest {
     position: absolute;
     width: 595px;
     height: 81px;
@@ -776,7 +838,8 @@ body {
     background: #FFFFFF;
     border-radius: 20px;
 }
-.quest1{
+
+.quest1 {
     position: absolute;
     width: 511px;
     height: 43px;
@@ -786,31 +849,36 @@ body {
     font-size: 15px;
     line-height: 18px;
 }
-.presschirimg1{
-position: absolute;
-font-size: 30px; 
-left: 50px;
-top: 550px;
-}
-.presschirimg2{
+
+.presschirimg1 {
     position: absolute;
-    font-size: 30px; 
+    font-size: 30px;
+    left: 50px;
+    top: 550px;
+}
+
+.presschirimg2 {
+    position: absolute;
+    font-size: 30px;
     left: 250px;
     top: 550px;
 }
-.presschirimg3{
+
+.presschirimg3 {
     position: absolute;
-    font-size: 30px; 
+    font-size: 30px;
     left: 450px;
     top: 550px;
 }
-.presschirimg4{
+
+.presschirimg4 {
     position: absolute;
-    font-size: 30px; 
+    font-size: 30px;
     left: 600px;
     top: 550px;
 }
-.trai1{
+
+.trai1 {
     position: absolute;
     width: 245px;
     height: 31px;
@@ -821,7 +889,8 @@ top: 550px;
     line-height: 18px;
     color: #999999;
 }
-.trai2{
+
+.trai2 {
     position: absolute;
     width: 232px;
     height: 31px;
@@ -830,9 +899,10 @@ top: 550px;
     font-weight: normal;
     font-size: 15px;
     line-height: 18px;
-    color: #999999; 
+    color: #999999;
 }
-.trai3{
+
+.trai3 {
     position: absolute;
     width: 245px;
     height: 31px;
@@ -841,9 +911,10 @@ top: 550px;
     font-weight: normal;
     font-size: 15px;
     line-height: 18px;
-    color: #999999; 
+    color: #999999;
 }
-.trai4{
+
+.trai4 {
     position: absolute;
     width: 245px;
     height: 31px;
@@ -852,7 +923,7 @@ top: 550px;
     font-weight: normal;
     font-size: 15px;
     line-height: 18px;
-    color: #999999;   
+    color: #999999;
 }
 .clossemess{
     position: absolute;
@@ -942,7 +1013,7 @@ top: 550px;
 
 .overlay {
     height: 100vh;
-    width: 0;
+    width: 20vw;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -1043,33 +1114,46 @@ Ici la home */
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 0px 20px 20px 0px;
     padding: 1%;
-    /* padding-top: 3%; */
     text-align: center;
 }
 
 .sujet_container {
-    width: 80vw;
+    width: 90vw;
     padding: .5rem;
     margin-top: 3rem;
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+}
+
+.sujet_arrow_container {
+    position: relative;
+    margin-left: 1vw;
+    margin-right: 5vw;
+}
+
+.sujet_arrow_container_stuff {
+    position: absolute;
+    top: 25%;
+    padding: 1vh;
+    border: solid #03B6EF;
+    border-radius: 50px;
 }
 
 .sujet_discussion {
-    margin-right: 2%;
     background-color: lawngreen;
     border-radius: 10px;
-    width: 25vw;
+    width: 10vw;
     Height: 25vh;
     position: relative;
 }
 
 .sujet_discussion_portrait {
     position: absolute;
-    left: -1vw;
+    left: -0.8vw;
     top: 0;
-    height: 4vh;
-    width: 4vh;
+    height: 6vh;
+    width: 6vh;
     background-color: #bbb;
     border-radius: 50%;
 }
@@ -1082,6 +1166,32 @@ Ici la home */
     width: 2vh;
     background-color: rgb(0, 153, 255);
     border-radius: 50%;
+    text-align: center;
+    vertical-align: top;
+}
+
+.container_titre_cas {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #03B6F0;
+    margin-top: 5vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cas_container {
+    width: 80vw;
+    padding: .5rem;
+    margin-top: 1rem;
+    padding: 2%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -1142,8 +1252,8 @@ button {
 }
 
 #Burgonde {
-    width: 80px;
-    height: 80px;
+    width: 8.8vh;
+    height: 8.8vh;
     border-radius: 50%;
 }
 
@@ -1195,6 +1305,7 @@ button#toggle {
 #toggle.on+#menu {
     opacity: 1;
     visibility: visible;
+    z-index: 3;
 }
 
 
@@ -1237,4 +1348,12 @@ button#toggle {
 
 div#specIcon {
     width: 50px;
+}
+
+@media screen and (max-width: 700px) {
+    #mobile-card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
 }

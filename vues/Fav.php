@@ -6,9 +6,6 @@
 <?php
 include("NavBar.php");
 ?>
-<?php
-include("Overlay_categorie.php");
-?>
 
 <body>
     <div class="main_container_bla">
@@ -23,6 +20,7 @@ include("Overlay_categorie.php");
                         <div class="barbleu1"><a>Greffe</a></div>
                         <div class="barbleu2"><a>Gencive</a></div>
                     </div>
+
                     <div class="card-body">
                         <title>Greffe de gencive</title>
                         <p class="card-text">L’améloblastome est une tumeur odontogène
@@ -43,6 +41,7 @@ include("Overlay_categorie.php");
                         <div id="cercle-bot2"><img src="../img/logo_chat_bleu.png" class="card-img" alt="">
                             <a id="cercle-bot3">18</a>
                         </div>
+
                     </div>
                 </div>
             </div>
@@ -56,6 +55,7 @@ include("Overlay_categorie.php");
                         <div class="barbleu4"><a>Parodontie</a></div>
                         <div class="barbleu5"><a>Extraction</a></div>
                     </div>
+
                     <div class="card-body">
                         <title>Parodontite aîgue</title>
                         <p class="card-text">L’énucléation et l’exérèse de la lésion avaient été
@@ -88,6 +88,8 @@ include("Overlay_categorie.php");
 </body>
 <footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="../Script/Notif.js"></script>
 </footer>
+
 
 </html>
