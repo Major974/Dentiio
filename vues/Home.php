@@ -127,7 +127,7 @@ include("../vues/NavBar.php");
                             <div id="cercle"></div>
                             <div class="namecl">
                                 <a>Arthur</a>
-                                <p>étudiant</p>
+                                <p class="lastmin1">étudiant</p>
                             </div>
                             <div id="cercle-bot1"><img src="../img/dent_bleu_pleine.png" class="card-img" alt="">
                                 <a id="cercle-bot3">4.8</a>
@@ -162,7 +162,7 @@ include("../vues/NavBar.php");
                             <div id="cercle"></div>
                             <div class="namecl">
                                 <a>Nikita</a>
-                                <p>inplantologue</p>
+                                <p class="lastmin1">inplantologue</p>
                             </div>
                             <div id="cercle-bot1">
                                 <img src="../img/dent_bleu_pleine.png" class="card-img" alt="">
@@ -179,34 +179,34 @@ include("../vues/NavBar.php");
             <div>
                 <div class="column-1">
                     <div class="card" style="width: 20rem;">
-                        <div id="cercle-top"><img src="../img/Etoile_Bleu_PLeine.png" class="card-img" alt="dev-meme-1"></div>
-                        <img src="../img/Git_branch_meme.webp" class="card-img-top" alt="dev-meme-2">
+                        <div id="cercle-top"><img src="../img/Etoile_Bleu_creuse.png" class="card-img" alt="dev-meme-1"></div>
+                        <img src="../img/jack.webp" class="card-img-top" alt="dev-meme-2">
                         <div class="">
-                            <div class="barbleu3"><a>Machoire</a></div>
+                            <div class="barbleu3"><a>fumeur</a></div>
                             <div class="barbleu4"><a>Parodontie</a></div>
-                            <div class="barbleu5"><a>Extraction</a></div>
+                            <div class="barbleu5"><a>Abcés</a></div>
                         </div>
                         <div class="card-body">
-                            <title>Parodontite aîgue</title>
-                            <p class="card-text">L’énucléation et l’exérèse de la lésion avaient été
-                                réalisées sous anesthésie locorégionale. En
-                                macroscopie, la pièce opératoire était ferme avec
-                                des contours irréguliers (Fig 5). L’examen
-                                anatomopathologique de la lésion révélait la
-                                présence d’une prolifération tumorale ...</p>
+                            <title>Abcés parodontal</title>
+                            <p class="card-text">Un jeune patient de 38 ans s’était présentéen
+                                consultation au service d’Odontologie Chirurgicale
+                                du Centre de Consultation et de Traitements
+                                Dentaires du CHU Ibn Rochd de Casablanca, pour
+                                une tuméfactionendobuccale de la région
+                                prémolaire mandibulaire droite...</p>
                             <img src="" class="" alt="">
                             <div id="cercle"></div>
                             <div class="namecl">
-                                <a>Nikita</a>
-                                <p>inplantologue</p>
+                                <a>Mounia</a>
+                                <p class="lastmin1">chirurgien-dentiste</p>
                             </div>
                             <div id="cercle-bot1">
                                 <img src="../img/dent_bleu_pleine.png" class="card-img" alt="">
-                                <a id="cercle-bot3">4.3</a>
+                                <a id="cercle-bot3">3.9</a>
                             </div>
                             <div id="cercle-bot2">
                                 <img src="../img/logo_chat_bleu.png" class="card-img" alt="">
-                                <a id="cercle-bot3">13</a>
+                                <a id="cercle-bot3">6</a>
                             </div>
                         </div>
                     </div>
@@ -214,7 +214,6 @@ include("../vues/NavBar.php");
             </Div>
         </div>
 
-        <!-- Modal -->
         <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
