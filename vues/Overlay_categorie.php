@@ -41,7 +41,7 @@ require_once 'Overlay_pathologie.php';
 
         </div>
 
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="/vues/Home.php" class="closebtn" onclick="closeNav()">&times;</a>
     </div>
 </div>
 <!-- <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span> -->

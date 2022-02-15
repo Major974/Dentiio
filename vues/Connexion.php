@@ -23,12 +23,12 @@
 
                     </div>
                     <button type="submit" class="btn btn-primary">
-                        Se Connecter
+                       <a href="/vues/Home.php" class="lastmin2">Se Connecter</a> 
                     </button>
                     <!-- <input type="submit" value="S'inscrire"> -->
                 </form>
                 <div class="recommendation">Pas de compte ?
-                    <a href="" style="text-decoration: none">Inscrivez-vous</a>
+                    <a href="/vues/Inscription.php" style="text-decoration: none">Inscrivez-vous</a>
                 </div>
             </div>
         </div>

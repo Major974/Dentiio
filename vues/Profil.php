@@ -16,7 +16,7 @@
 
     <!-- manque 2 boutton -->
     <p class="colorblack6">Modifier vos information</p>
-    <p class="colorblack7">Se Déconnecter</p>
+    <a href="/vues/Connexion.php" class="colorblack7">Se Déconnecter</a>
     <!-- manque 2 boutton -->
 
     <div class="bleubarb">

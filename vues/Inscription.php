@@ -37,12 +37,12 @@
 
                     </div>
                     <button type="submit" class="btn btn-primary">
-                        S'inscrire
+                      <a href="/vues/Home.php" class="lastmin2">S'inscrire</a>  
                     </button>
                     <!-- <input type="submit" value="S'inscrire"> -->
                 </form>
                 <div class="recommendation">Déjà un compte ?
-                    <a href="" style="text-decoration: none">Connectez-vous</a>
+                    <a href="/vues/Connexion.php" style="text-decoration: none">Connectez-vous</a>
                 </div>
             </div>
         </div>

@@ -110,7 +110,7 @@ include("../vues/NavBar.php");
                 <div class="column">
                     <div class="card" style="width: 20rem;">
                         <div id="cercle-top"><img src="../img/Etoile_Bleu_PLeine.png" class="card-img" alt="dev-meme-1"></div>
-                        <img src="../img/4ooord.jpg" class="card-img-top" alt="dev-meme-1">
+                       <a href="/vues/Message.php"><img src="../img/4ooord.jpg" class="card-img-top" alt="dev-meme-1"></a> 
                         <div class="">
                             <div class="barbleu1"><a>Greffe</a></div>
                             <div class="barbleu2"><a>Gencive</a></div>
