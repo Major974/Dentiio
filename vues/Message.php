@@ -96,7 +96,9 @@
                 <p class="presschir4">Non fumeur Alcool occasionnel</p>
                 <p class="presschir5">Aucune allergie aucun antecédant médical</p>
                 <p class="presschir6">Contrôle de routine</p>
-
+                <div class="clossemess">
+                    <a href="Home.php" class="clossemess1">✖️</a>
+                </div>
             </div>
             <div class="quest"> </div>
             <p class="quest1">Le patient présent une péri - implantite en 37, mais pas de douleurs ni d'infections visibles en bouche. Quel traitement réaliser ?</p>
