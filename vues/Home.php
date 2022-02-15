@@ -182,9 +182,9 @@ include("../vues/NavBar.php");
                         <div id="cercle-top"><img src="../img/Etoile_Bleu_creuse.png" class="card-img" alt="dev-meme-1"></div>
                         <img src="../img/jack.webp" class="card-img-top" alt="dev-meme-2">
                         <div class="">
-                            <div class="barbleu3"><a>fumeur</a></div>
-                            <div class="barbleu4"><a>Parodontie</a></div>
-                            <div class="barbleu5"><a>Abcés</a></div>
+                            <div class="barbleu6"><a>fumeur</a></div>
+                            <div class="barbleu7"><a>Parodontie</a></div>
+                            <div class="barbleu8"><a>Abcés</a></div>
                         </div>
                         <div class="card-body">
                             <title>Abcés parodontal</title>
