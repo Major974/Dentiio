@@ -17,22 +17,22 @@ require_once 'Overlay_pathologie.php';
             <div class="cat_container_titre">RECHERCHER PAR CATEGORIE</div>
 
             <div class="cat_container d-flex flex-column  p-2">
-                <div class="category_button p-2">
+                <div class="cat_button p-2">
                     <a id="bouton_pathologie" onclick="go_to_path()">Pathologie
                         <img src="/img/outline_arrow_forward_ios_black_24dp.png" style="float:right">
                     </a>
                 </div>
-                <div class="category_button p-2">
+                <div class="cat_button p-2">
                     <a href="Inscription.php">Traitement
-                        <img src="/img/outline_arrow_forward_ios_black_24dp.png" style="float:right" style="float:right" alt="">
+                        <img src="/img/outline_arrow_forward_ios_black_24dp.png" style="float:right" alt="">
                     </a>
                 </div>
-                <div class="category_button p-2">
+                <div class="cat_button p-2">
                     <a href="Inscription.php">Spécialité
                         <img src="/img/outline_arrow_forward_ios_black_24dp.png" style="float:right" alt="">
                     </a>
                 </div>
-                <div class="category_button p-2">
+                <div class="cat_button p-2">
                     <a href="Inscription.php">Anatomie
                         <img src="/img/outline_arrow_forward_ios_black_24dp.png" style="float:right" alt="">
                     </a>
