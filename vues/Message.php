@@ -9,6 +9,8 @@
 <body>
     <!-- zindex la page home -->
     <div class="fondnoirs"></div>
+    <p class="lastmin3"><</p>
+    <p class="lastmin4">></p>
     <div class="chat&patient">
         <div class="chats">
             <div>
